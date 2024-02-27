@@ -10,7 +10,7 @@ This repo will contain all the various Barnacles I come up with. Feel free to su
 You can plug in (or stack multiple) Barnacles to do add new functionality to you breadboarding experience without cluttering the part your're working on.
 
 
-The next few I'm working on are (in vague order):
+The next few I'm working on are (in a vague chronological order):
  - Proto Barnacle - a cheap solderable protoboard that maps 1:1 to the breadboard ([done, shown here](https://kicanvas.org/?github=https://github.com/Architeuthis-Flux/Barnacle_Board/blob/main/ProtoBarnacle/ProtoBarnacle.kicad_pcb))
  - Sense Barnacle - a thing to continuously measure the voltage on every row and display it as a color/brightness on that row and on the built in OLED ([rough draft of the schematic is here](https://kicanvas.org/?github=https://github.com/Architeuthis-Flux/Barnacle_Board/blob/main/SenseBarnacle/SenseBarnacle.kicad_sch))
  - Dumb Barnacle - a very simple LED driver where row colors can be manually selected, and also a simple, selectable breadboard power supply
