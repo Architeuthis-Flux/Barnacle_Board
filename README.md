@@ -1,7 +1,7 @@
 # Barnacle Board
 ###### an RGB'd out breadboard you can stick things to
 
-The Barnacle Board is a half-size breadboard with RGB LEDs under each row and a 70-pin card edge connector at the top.
+The Barnacle Board is a breadboard with RGB LEDs under each row and a 70-pin card edge connector at the top.
 
 ![TxRx00089](https://github.com/Architeuthis-Flux/Barnacle_Board/assets/20519442/a3bab266-83e3-4b2e-a942-23591e9d55d6)
 
