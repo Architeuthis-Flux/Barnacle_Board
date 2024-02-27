@@ -1,0 +1,3091 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "76488a98-ea73-4b2a-97c9-d7ba65c6d997")
+	(paper "A2")
+	(lib_symbols
+		(symbol "74xx:CD74HC4067SM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CD74HC4067SM"
+				(at 1.27 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+				(at 26.67 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"
+				(at -8.89 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SSOP-24"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "multiplexer demultiplexer mux demux"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SSOP*5.3x8.2mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CD74HC4067SM_0_1"
+				(rectangle
+					(start -8.89 21.59)
+					(end 8.89 -24.13)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CD74HC4067SM_1_1"
+				(pin passive line
+					(at -12.7 12.7 0)
+					(length 3.81)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 3.81)
+					(name "S0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 3.81)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 3.81)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 3.81)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -15.24 0)
+					(length 3.81)
+					(name "~{E}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -20.32 180)
+					(length 3.81)
+					(name "I15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -17.78 180)
+					(length 3.81)
+					(name "I14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -15.24 180)
+					(length 3.81)
+					(name "I13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -12.7 180)
+					(length 3.81)
+					(name "I12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 3.81)
+					(name "I7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -10.16 180)
+					(length 3.81)
+					(name "I11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 3.81)
+					(name "I10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 3.81)
+					(name "I9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 3.81)
+					(name "I8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 25.4 270)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 3.81)
+					(name "I6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 3.81)
+					(name "I5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 3.81)
+					(name "I4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 10.16 180)
+					(length 3.81)
+					(name "I3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 12.7 180)
+					(length 3.81)
+					(name "I2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 15.24 180)
+					(length 3.81)
+					(name "I1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 17.78 180)
+					(length 3.81)
+					(name "I0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Analog_Switch:MAX333"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.175 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MAX333"
+				(at -3.175 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX333.pdf"
+				(at 3.048 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad SPDT CMOS Analog Switch, DIP-20/SOIC-20/SSOP-20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CMOS Analog Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SSOP*5.3x7.2mm*P0.65mm* SOIC*7.5x10.3mm*P1.27mm* DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX333_1_1"
+				(rectangle
+					(start -3.81 4.445)
+					(end 3.81 -4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.127) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.318) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 0 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.794) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.794 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.794 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MAX333_2_1"
+				(rectangle
+					(start -3.81 4.445)
+					(end 3.81 -4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.127) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.318) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 0 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.794) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.794 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.794 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MAX333_3_1"
+				(rectangle
+					(start -3.81 4.445)
+					(end 3.81 -4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.127) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.318) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 0 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.794) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.794 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.794 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MAX333_4_1"
+				(rectangle
+					(start -3.81 4.445)
+					(end 3.81 -4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.127) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.318) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 0 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.794) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.794 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.794 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MAX333_5_0"
+				(pin no_connect line
+					(at 2.54 10.16 270)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MAX333_5_1"
+				(rectangle
+					(start -3.81 10.16)
+					(end 6.35 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:CD74HC4067SM")
+		(at 398.78 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12828697-7b77-4e5f-a6f0-0ba29937b1b1")
+		(property "Reference" "U3"
+			(at 400.9741 197.7855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CD74HC4067SM"
+			(at 400.9741 200.2098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+			(at 425.45 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"
+			(at 389.89 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SSOP-24"
+			(at 398.78 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9ab3f3ff-4c66-40f1-b237-f53e17874210")
+		)
+		(pin "6"
+			(uuid "887f61fe-e380-4f24-94aa-bc89e61d5c28")
+		)
+		(pin "14"
+			(uuid "cd3ada34-8100-40d2-9a09-7cef3a55c24a")
+		)
+		(pin "15"
+			(uuid "4b2a7856-4dd1-42b8-96a2-15678531e1a4")
+		)
+		(pin "16"
+			(uuid "eea3b8a7-5f10-4cc4-a99f-844155ae81dc")
+		)
+		(pin "13"
+			(uuid "1fd08d74-3879-41a9-b3e9-af3e86588d02")
+		)
+		(pin "17"
+			(uuid "e552dc75-56eb-4aa5-9f04-50146cafdc13")
+		)
+		(pin "18"
+			(uuid "a5cf126a-d1a3-4b14-b951-631e588eed6c")
+		)
+		(pin "2"
+			(uuid "bfc99a61-2853-4d99-a328-a6739b39c4be")
+		)
+		(pin "19"
+			(uuid "c62c4e60-8b65-40bd-91a3-825d3485bc17")
+		)
+		(pin "3"
+			(uuid "b97adc86-6043-44d5-b250-7bdebfffecf6")
+		)
+		(pin "1"
+			(uuid "90913f27-0ba0-441a-8211-d0d1fe2e0412")
+		)
+		(pin "21"
+			(uuid "47c13855-5355-4f07-a679-ac893a9d43de")
+		)
+		(pin "7"
+			(uuid "afc947ab-47e2-4b95-bedc-951cf0e7f0c5")
+		)
+		(pin "8"
+			(uuid "e9d62b47-d0fc-4121-be6b-c8ef197f3da3")
+		)
+		(pin "4"
+			(uuid "708ad6cc-b881-478f-ad37-4e2e7fa0460c")
+		)
+		(pin "12"
+			(uuid "c5d649aa-7331-49a5-929b-c05f576e1b12")
+		)
+		(pin "20"
+			(uuid "d5ebd905-cd61-4f2f-a3f4-4fc36fe3133f")
+		)
+		(pin "11"
+			(uuid "739740e0-16a9-49fc-b55e-46120ae319a0")
+		)
+		(pin "22"
+			(uuid "331189eb-ebdc-4b85-a7f6-b2ad52cf9b18")
+		)
+		(pin "9"
+			(uuid "45d625cd-b7da-4a3c-93d4-b17b6f8c021c")
+		)
+		(pin "24"
+			(uuid "28ca20c5-3869-409d-bfc3-f81a4121496d")
+		)
+		(pin "10"
+			(uuid "db94dfeb-53ee-4e3f-8484-918004e34ebe")
+		)
+		(pin "23"
+			(uuid "529c6c30-b1f4-4e23-b5c5-9550ad4d7137")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:MAX333")
+		(at 335.28 237.49 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44721bbd-7291-4f95-943a-16196ed6bd2b")
+		(property "Reference" "U5"
+			(at 335.28 228.9005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX333"
+			(at 335.28 231.3248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX333.pdf"
+			(at 338.328 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad SPDT CMOS Analog Switch, DIP-20/SOIC-20/SSOP-20"
+			(at 335.28 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "4a24a61a-1c7f-4aa4-86d6-7b6002f73e42")
+		)
+		(pin "12"
+			(uuid "ff46f686-5b28-4648-9c8b-66db0a5bd13d")
+		)
+		(pin "9"
+			(uuid "bfdda388-1ccd-4e5c-b4bd-c4e0c6fd61a1")
+		)
+		(pin "8"
+			(uuid "6bc6ece7-cc6c-4b26-9031-8852102e2b1c")
+		)
+		(pin "7"
+			(uuid "656c40ad-a422-4a99-b8c1-7ed771b0f308")
+		)
+		(pin "3"
+			(uuid "3ad77716-e7ac-4daf-b3ba-8ed7d4fff559")
+		)
+		(pin "2"
+			(uuid "f9bec5bd-1b7c-4809-a45c-79d9fd3d17c2")
+		)
+		(pin "20"
+			(uuid "dec11a55-0bbc-4bde-bccc-bddac4efe7d4")
+		)
+		(pin "6"
+			(uuid "3f1c2f5c-1a83-4e81-ae10-d6bddb4fc73e")
+		)
+		(pin "5"
+			(uuid "4481a428-613e-4040-abde-3dd546b0b6bb")
+		)
+		(pin "16"
+			(uuid "3914aa3f-fc70-4d08-8aab-03e223d5f01c")
+		)
+		(pin "15"
+			(uuid "ea4cbbe6-433f-41b5-9838-757894ad594d")
+		)
+		(pin "17"
+			(uuid "3a6ba499-671f-4c74-9eb8-2822cfbd7b48")
+		)
+		(pin "19"
+			(uuid "cc6e3132-4d99-4307-a877-1acdda9db8e8")
+		)
+		(pin "18"
+			(uuid "59be001c-63bf-47d7-b06c-c61da65eb551")
+		)
+		(pin "11"
+			(uuid "45b9dfb2-72b6-493b-8af4-c9cb6cd4295b")
+		)
+		(pin "14"
+			(uuid "c9b8eab7-da85-4228-b563-2f2472584dbe")
+		)
+		(pin "10"
+			(uuid "d5703f6b-038b-477d-bf79-f0168cefc9b9")
+		)
+		(pin "4"
+			(uuid "d2377907-4946-4f74-a82e-faaa61a18e3a")
+		)
+		(pin "1"
+			(uuid "513da5f2-1caf-4df8-ab73-0b830e100e17")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:CD74HC4067SM")
+		(at 398.78 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45850fa3-516e-4b33-a985-0a15f5d8b560")
+		(property "Reference" "U2"
+			(at 400.9741 130.4755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CD74HC4067SM"
+			(at 400.9741 132.8998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+			(at 425.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"
+			(at 389.89 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SSOP-24"
+			(at 398.78 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "3eabe5d4-7019-4ef5-b438-721d174d3bec")
+		)
+		(pin "6"
+			(uuid "b2ce49a9-45ba-456d-a8ed-18dac35b5b39")
+		)
+		(pin "14"
+			(uuid "09ff1d9a-e4ba-4ab8-8317-9e3c52d375ae")
+		)
+		(pin "15"
+			(uuid "e36dd233-1600-439b-8058-ce0aa8f82faa")
+		)
+		(pin "16"
+			(uuid "f9e7d12f-7d80-4326-8590-ed53e8ae17c2")
+		)
+		(pin "13"
+			(uuid "8c829f1e-736b-4842-a7e6-c110e35a4014")
+		)
+		(pin "17"
+			(uuid "5785c9e6-323f-478d-a9da-6b179bab1390")
+		)
+		(pin "18"
+			(uuid "e2f46bd4-751c-4def-b515-d4e266f0fcd9")
+		)
+		(pin "2"
+			(uuid "2a0bac12-38c7-4909-bdc8-9e8057c6a915")
+		)
+		(pin "19"
+			(uuid "c7d2b3be-bf73-4acf-9ef4-20df40c2a2b9")
+		)
+		(pin "3"
+			(uuid "1f0ea896-1a32-4c0e-9ddb-b5f815763a60")
+		)
+		(pin "1"
+			(uuid "b5c69050-64d8-42c9-8494-263918b26990")
+		)
+		(pin "21"
+			(uuid "9d636ae0-bbe8-4a7e-a6b9-1ba255f75348")
+		)
+		(pin "7"
+			(uuid "1b984c86-827e-4daf-8fe6-23ce8850658f")
+		)
+		(pin "8"
+			(uuid "1feb9b04-2d3c-423e-81a6-6d106732751f")
+		)
+		(pin "4"
+			(uuid "9636719b-a5b9-46da-b71b-ae60e7fd2aad")
+		)
+		(pin "12"
+			(uuid "1ad7693a-7a53-4f1c-a5d3-762f5e43ba84")
+		)
+		(pin "20"
+			(uuid "797538d9-d0c9-470f-8325-0dd598ce468e")
+		)
+		(pin "11"
+			(uuid "6e19c7ad-55e3-4f5e-83f1-51b0b2969692")
+		)
+		(pin "22"
+			(uuid "f089cbfa-d235-439e-a4f3-5bbab01b0f82")
+		)
+		(pin "9"
+			(uuid "98a7a63e-6515-41f3-ae84-d48e34a834a0")
+		)
+		(pin "24"
+			(uuid "e558d581-9961-4b9d-9134-3799faf5021b")
+		)
+		(pin "10"
+			(uuid "bdd576a9-8177-415c-878e-bc699b036bf3")
+		)
+		(pin "23"
+			(uuid "b3e6155c-5839-4f3a-9029-e5ae8adc569b")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:MAX333")
+		(at 284.48 35.56 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89da1a0d-038f-4a0e-a069-6f7a3f2fbf9b")
+		(property "Reference" "U5"
+			(at 291.592 34.3478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX333"
+			(at 291.592 36.7721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX333.pdf"
+			(at 287.528 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad SPDT CMOS Analog Switch, DIP-20/SOIC-20/SSOP-20"
+			(at 284.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "4a24a61a-1c7f-4aa4-86d6-7b6002f73e42")
+		)
+		(pin "12"
+			(uuid "ff46f686-5b28-4648-9c8b-66db0a5bd13d")
+		)
+		(pin "9"
+			(uuid "bfdda388-1ccd-4e5c-b4bd-c4e0c6fd61a1")
+		)
+		(pin "8"
+			(uuid "6bc6ece7-cc6c-4b26-9031-8852102e2b1c")
+		)
+		(pin "7"
+			(uuid "656c40ad-a422-4a99-b8c1-7ed771b0f308")
+		)
+		(pin "3"
+			(uuid "3ad77716-e7ac-4daf-b3ba-8ed7d4fff559")
+		)
+		(pin "2"
+			(uuid "f9bec5bd-1b7c-4809-a45c-79d9fd3d17c2")
+		)
+		(pin "20"
+			(uuid "dec11a55-0bbc-4bde-bccc-bddac4efe7d4")
+		)
+		(pin "6"
+			(uuid "3f1c2f5c-1a83-4e81-ae10-d6bddb4fc73e")
+		)
+		(pin "5"
+			(uuid "4481a428-613e-4040-abde-3dd546b0b6bb")
+		)
+		(pin "16"
+			(uuid "3914aa3f-fc70-4d08-8aab-03e223d5f01c")
+		)
+		(pin "15"
+			(uuid "ea4cbbe6-433f-41b5-9838-757894ad594d")
+		)
+		(pin "17"
+			(uuid "3a6ba499-671f-4c74-9eb8-2822cfbd7b48")
+		)
+		(pin "19"
+			(uuid "cc6e3132-4d99-4307-a877-1acdda9db8e8")
+		)
+		(pin "18"
+			(uuid "59be001c-63bf-47d7-b06c-c61da65eb551")
+		)
+		(pin "11"
+			(uuid "45b9dfb2-72b6-493b-8af4-c9cb6cd4295b")
+		)
+		(pin "14"
+			(uuid "c9b8eab7-da85-4228-b563-2f2472584dbe")
+		)
+		(pin "10"
+			(uuid "d5703f6b-038b-477d-bf79-f0168cefc9b9")
+		)
+		(pin "4"
+			(uuid "d2377907-4946-4f74-a82e-faaa61a18e3a")
+		)
+		(pin "1"
+			(uuid "513da5f2-1caf-4df8-ab73-0b830e100e17")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "U5")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:CD74HC4067SM")
+		(at 398.78 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa45cfcf-7da4-4fa5-9eea-dba39b174212")
+		(property "Reference" "U1"
+			(at 400.9741 64.4355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CD74HC4067SM"
+			(at 400.9741 66.8598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+			(at 425.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"
+			(at 389.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SSOP-24"
+			(at 398.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "3eabe5d4-7019-4ef5-b438-721d174d3bec")
+		)
+		(pin "6"
+			(uuid "b2ce49a9-45ba-456d-a8ed-18dac35b5b39")
+		)
+		(pin "14"
+			(uuid "09ff1d9a-e4ba-4ab8-8317-9e3c52d375ae")
+		)
+		(pin "15"
+			(uuid "e36dd233-1600-439b-8058-ce0aa8f82faa")
+		)
+		(pin "16"
+			(uuid "f9e7d12f-7d80-4326-8590-ed53e8ae17c2")
+		)
+		(pin "13"
+			(uuid "8c829f1e-736b-4842-a7e6-c110e35a4014")
+		)
+		(pin "17"
+			(uuid "5785c9e6-323f-478d-a9da-6b179bab1390")
+		)
+		(pin "18"
+			(uuid "e2f46bd4-751c-4def-b515-d4e266f0fcd9")
+		)
+		(pin "2"
+			(uuid "2a0bac12-38c7-4909-bdc8-9e8057c6a915")
+		)
+		(pin "19"
+			(uuid "c7d2b3be-bf73-4acf-9ef4-20df40c2a2b9")
+		)
+		(pin "3"
+			(uuid "1f0ea896-1a32-4c0e-9ddb-b5f815763a60")
+		)
+		(pin "1"
+			(uuid "b5c69050-64d8-42c9-8494-263918b26990")
+		)
+		(pin "21"
+			(uuid "9d636ae0-bbe8-4a7e-a6b9-1ba255f75348")
+		)
+		(pin "7"
+			(uuid "1b984c86-827e-4daf-8fe6-23ce8850658f")
+		)
+		(pin "8"
+			(uuid "1feb9b04-2d3c-423e-81a6-6d106732751f")
+		)
+		(pin "4"
+			(uuid "9636719b-a5b9-46da-b71b-ae60e7fd2aad")
+		)
+		(pin "12"
+			(uuid "1ad7693a-7a53-4f1c-a5d3-762f5e43ba84")
+		)
+		(pin "20"
+			(uuid "797538d9-d0c9-470f-8325-0dd598ce468e")
+		)
+		(pin "11"
+			(uuid "6e19c7ad-55e3-4f5e-83f1-51b0b2969692")
+		)
+		(pin "22"
+			(uuid "f089cbfa-d235-439e-a4f3-5bbab01b0f82")
+		)
+		(pin "9"
+			(uuid "98a7a63e-6515-41f3-ae84-d48e34a834a0")
+		)
+		(pin "24"
+			(uuid "e558d581-9961-4b9d-9134-3799faf5021b")
+		)
+		(pin "10"
+			(uuid "bdd576a9-8177-415c-878e-bc699b036bf3")
+		)
+		(pin "23"
+			(uuid "b3e6155c-5839-4f3a-9029-e5ae8adc569b")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:MAX333")
+		(at 339.09 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c36453ec-01e9-41cb-9a75-af8cc3967aac")
+		(property "Reference" "U5"
+			(at 339.09 89.2005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX333"
+			(at 339.09 91.6248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX333.pdf"
+			(at 342.138 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad SPDT CMOS Analog Switch, DIP-20/SOIC-20/SSOP-20"
+			(at 339.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "4a24a61a-1c7f-4aa4-86d6-7b6002f73e42")
+		)
+		(pin "12"
+			(uuid "ff46f686-5b28-4648-9c8b-66db0a5bd13d")
+		)
+		(pin "9"
+			(uuid "bfdda388-1ccd-4e5c-b4bd-c4e0c6fd61a1")
+		)
+		(pin "8"
+			(uuid "6bc6ece7-cc6c-4b26-9031-8852102e2b1c")
+		)
+		(pin "7"
+			(uuid "656c40ad-a422-4a99-b8c1-7ed771b0f308")
+		)
+		(pin "3"
+			(uuid "3ad77716-e7ac-4daf-b3ba-8ed7d4fff559")
+		)
+		(pin "2"
+			(uuid "f9bec5bd-1b7c-4809-a45c-79d9fd3d17c2")
+		)
+		(pin "20"
+			(uuid "dec11a55-0bbc-4bde-bccc-bddac4efe7d4")
+		)
+		(pin "6"
+			(uuid "3f1c2f5c-1a83-4e81-ae10-d6bddb4fc73e")
+		)
+		(pin "5"
+			(uuid "4481a428-613e-4040-abde-3dd546b0b6bb")
+		)
+		(pin "16"
+			(uuid "3914aa3f-fc70-4d08-8aab-03e223d5f01c")
+		)
+		(pin "15"
+			(uuid "ea4cbbe6-433f-41b5-9838-757894ad594d")
+		)
+		(pin "17"
+			(uuid "3a6ba499-671f-4c74-9eb8-2822cfbd7b48")
+		)
+		(pin "19"
+			(uuid "cc6e3132-4d99-4307-a877-1acdda9db8e8")
+		)
+		(pin "18"
+			(uuid "59be001c-63bf-47d7-b06c-c61da65eb551")
+		)
+		(pin "11"
+			(uuid "45b9dfb2-72b6-493b-8af4-c9cb6cd4295b")
+		)
+		(pin "14"
+			(uuid "c9b8eab7-da85-4228-b563-2f2472584dbe")
+		)
+		(pin "10"
+			(uuid "d5703f6b-038b-477d-bf79-f0168cefc9b9")
+		)
+		(pin "4"
+			(uuid "d2377907-4946-4f74-a82e-faaa61a18e3a")
+		)
+		(pin "1"
+			(uuid "513da5f2-1caf-4df8-ab73-0b830e100e17")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:MAX333")
+		(at 336.55 302.26 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5d0961d-55fc-4216-a485-fce21bc269a4")
+		(property "Reference" "U5"
+			(at 336.55 293.6705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX333"
+			(at 336.55 296.0948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX333.pdf"
+			(at 339.598 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad SPDT CMOS Analog Switch, DIP-20/SOIC-20/SSOP-20"
+			(at 336.55 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "4a24a61a-1c7f-4aa4-86d6-7b6002f73e42")
+		)
+		(pin "12"
+			(uuid "ff46f686-5b28-4648-9c8b-66db0a5bd13d")
+		)
+		(pin "9"
+			(uuid "bfdda388-1ccd-4e5c-b4bd-c4e0c6fd61a1")
+		)
+		(pin "8"
+			(uuid "6bc6ece7-cc6c-4b26-9031-8852102e2b1c")
+		)
+		(pin "7"
+			(uuid "656c40ad-a422-4a99-b8c1-7ed771b0f308")
+		)
+		(pin "3"
+			(uuid "3ad77716-e7ac-4daf-b3ba-8ed7d4fff559")
+		)
+		(pin "2"
+			(uuid "f9bec5bd-1b7c-4809-a45c-79d9fd3d17c2")
+		)
+		(pin "20"
+			(uuid "dec11a55-0bbc-4bde-bccc-bddac4efe7d4")
+		)
+		(pin "6"
+			(uuid "3f1c2f5c-1a83-4e81-ae10-d6bddb4fc73e")
+		)
+		(pin "5"
+			(uuid "4481a428-613e-4040-abde-3dd546b0b6bb")
+		)
+		(pin "16"
+			(uuid "3914aa3f-fc70-4d08-8aab-03e223d5f01c")
+		)
+		(pin "15"
+			(uuid "ea4cbbe6-433f-41b5-9838-757894ad594d")
+		)
+		(pin "17"
+			(uuid "3a6ba499-671f-4c74-9eb8-2822cfbd7b48")
+		)
+		(pin "19"
+			(uuid "cc6e3132-4d99-4307-a877-1acdda9db8e8")
+		)
+		(pin "18"
+			(uuid "59be001c-63bf-47d7-b06c-c61da65eb551")
+		)
+		(pin "11"
+			(uuid "45b9dfb2-72b6-493b-8af4-c9cb6cd4295b")
+		)
+		(pin "14"
+			(uuid "c9b8eab7-da85-4228-b563-2f2472584dbe")
+		)
+		(pin "10"
+			(uuid "d5703f6b-038b-477d-bf79-f0168cefc9b9")
+		)
+		(pin "4"
+			(uuid "d2377907-4946-4f74-a82e-faaa61a18e3a")
+		)
+		(pin "1"
+			(uuid "513da5f2-1caf-4df8-ab73-0b830e100e17")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "U5")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:MAX333")
+		(at 336.55 168.91 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5845038-d419-4130-9fe7-a7b3e1b44779")
+		(property "Reference" "U5"
+			(at 336.55 160.3205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX333"
+			(at 336.55 162.7448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX333.pdf"
+			(at 339.598 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad SPDT CMOS Analog Switch, DIP-20/SOIC-20/SSOP-20"
+			(at 336.55 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "4a24a61a-1c7f-4aa4-86d6-7b6002f73e42")
+		)
+		(pin "12"
+			(uuid "ff46f686-5b28-4648-9c8b-66db0a5bd13d")
+		)
+		(pin "9"
+			(uuid "bfdda388-1ccd-4e5c-b4bd-c4e0c6fd61a1")
+		)
+		(pin "8"
+			(uuid "6bc6ece7-cc6c-4b26-9031-8852102e2b1c")
+		)
+		(pin "7"
+			(uuid "656c40ad-a422-4a99-b8c1-7ed771b0f308")
+		)
+		(pin "3"
+			(uuid "3ad77716-e7ac-4daf-b3ba-8ed7d4fff559")
+		)
+		(pin "2"
+			(uuid "f9bec5bd-1b7c-4809-a45c-79d9fd3d17c2")
+		)
+		(pin "20"
+			(uuid "dec11a55-0bbc-4bde-bccc-bddac4efe7d4")
+		)
+		(pin "6"
+			(uuid "3f1c2f5c-1a83-4e81-ae10-d6bddb4fc73e")
+		)
+		(pin "5"
+			(uuid "4481a428-613e-4040-abde-3dd546b0b6bb")
+		)
+		(pin "16"
+			(uuid "3914aa3f-fc70-4d08-8aab-03e223d5f01c")
+		)
+		(pin "15"
+			(uuid "ea4cbbe6-433f-41b5-9838-757894ad594d")
+		)
+		(pin "17"
+			(uuid "3a6ba499-671f-4c74-9eb8-2822cfbd7b48")
+		)
+		(pin "19"
+			(uuid "cc6e3132-4d99-4307-a877-1acdda9db8e8")
+		)
+		(pin "18"
+			(uuid "59be001c-63bf-47d7-b06c-c61da65eb551")
+		)
+		(pin "11"
+			(uuid "45b9dfb2-72b6-493b-8af4-c9cb6cd4295b")
+		)
+		(pin "14"
+			(uuid "c9b8eab7-da85-4228-b563-2f2472584dbe")
+		)
+		(pin "10"
+			(uuid "d5703f6b-038b-477d-bf79-f0168cefc9b9")
+		)
+		(pin "4"
+			(uuid "d2377907-4946-4f74-a82e-faaa61a18e3a")
+		)
+		(pin "1"
+			(uuid "513da5f2-1caf-4df8-ab73-0b830e100e17")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:CD74HC4067SM")
+		(at 398.78 289.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d92a5c3b-f7c5-4c8c-b56c-d496ec840976")
+		(property "Reference" "U4"
+			(at 400.9741 263.8255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CD74HC4067SM"
+			(at 400.9741 266.2498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+			(at 425.45 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"
+			(at 389.89 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SSOP-24"
+			(at 398.78 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e8bc18f7-5626-413d-8439-a3a5f0f64bae")
+		)
+		(pin "6"
+			(uuid "508b8ce3-04c1-4def-891c-a57473deda87")
+		)
+		(pin "14"
+			(uuid "c8557608-85e3-4375-b9e6-7f9b56703ac1")
+		)
+		(pin "15"
+			(uuid "0a22ce6e-b2f6-4471-8211-a2a5888421c8")
+		)
+		(pin "16"
+			(uuid "f66a1c16-4c4a-4a04-ba62-4472051701a1")
+		)
+		(pin "13"
+			(uuid "3e5b7dc6-f395-40bd-b22a-3fc9b82293c8")
+		)
+		(pin "17"
+			(uuid "212cc374-6d7c-4f48-9e7d-4f6378878583")
+		)
+		(pin "18"
+			(uuid "bcf790c0-626e-40ad-85e1-351f0da5c06f")
+		)
+		(pin "2"
+			(uuid "1f59b33c-b00a-49d8-ae2c-4bac44690955")
+		)
+		(pin "19"
+			(uuid "ed093dea-e824-414a-a562-9d47aaaf7682")
+		)
+		(pin "3"
+			(uuid "d84c7d57-65d8-4e6b-941a-df14b087b83c")
+		)
+		(pin "1"
+			(uuid "6b14f65d-c790-46d4-9093-58142c9e2788")
+		)
+		(pin "21"
+			(uuid "4abc0aed-2b92-4fbe-a37d-7d676c7a1470")
+		)
+		(pin "7"
+			(uuid "a55198e8-916e-45ff-a948-b15d7d264b20")
+		)
+		(pin "8"
+			(uuid "fa2a24ca-6774-4726-bb1e-51e671b277a8")
+		)
+		(pin "4"
+			(uuid "4faf876b-2127-401d-933d-df93bb64d575")
+		)
+		(pin "12"
+			(uuid "c3958f10-8305-4547-a7c5-0243b0b80924")
+		)
+		(pin "20"
+			(uuid "b6d6a628-f809-42b1-a4f2-b165ce26c4de")
+		)
+		(pin "11"
+			(uuid "c7d6badb-1b8a-40b9-b39f-6e7e8af56b51")
+		)
+		(pin "22"
+			(uuid "66eeb2b7-9c1b-412f-8dca-507ac9ddbb38")
+		)
+		(pin "9"
+			(uuid "c664ec1c-55dd-41a9-b2af-fbf07791d1e1")
+		)
+		(pin "24"
+			(uuid "562d9952-9204-4abc-8cc7-fcd99d7fd6ae")
+		)
+		(pin "10"
+			(uuid "25617456-730e-4c7b-a1b1-3e8bd95e040c")
+		)
+		(pin "23"
+			(uuid "8820fcf4-252c-4a91-9722-4b6e09631536")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
