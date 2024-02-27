@@ -17,7 +17,7 @@ The next few I'm working on are (in a vague chronological order):
  - Internacle - a passive routing hub for multiple barnacles to pass connections between boards
  - SMD Barnacle - a bunch of SMD footprints, similar to the top part of a [Jumperlux](https://github.com/Architeuthis-Flux/JumperLUX) (this project is basically Jumperlux Rev 2 with a new name)
  - Professor Barnacle - wirelessly control the LEDs on any number (or subset of) of boards to help guide students through electronics labs
- - Nixie Barnacle - a nixie tube power supply and footprints to solder in various nixie tubes
+ - Nixie Barnacle - a nixie tube power supply and footprints for various nixie tube sockets
  - Jumperless Barnacle - a [Jumperless](https://github.com/Architeuthis-Flux/Jumperless) with an edge connector instead of an integrated breadboard
 
 
