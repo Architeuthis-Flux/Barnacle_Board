@@ -1505,6 +1505,294 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x05_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05_Socket"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_Socket_1_1"
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.588)
+					(mid -0.5058 5.08)
+					(end 0 4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -9008,6 +9296,296 @@
 				)
 			)
 		)
+		(symbol "JumperlessSymbols:Switch_Multidirectional"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Switch_Multidirectional_0_1"
+				(rectangle
+					(start -8.89 8.89)
+					(end 7.62 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 0) (xy -6.35 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.27) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -7.62) (xy -5.08 -7.62) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 7.62) (xy -5.08 7.62) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 3.81 -7.62) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy 3.81 7.62) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.0001)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Switch_Multidirectional_1_1"
+				(pin input line
+					(at -11.43 7.62 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "Center"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "Common"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "JumperlessSymbols:USB_B_Micro"
 			(pin_names
 				(offset 1.016)
@@ -10067,6 +10645,12 @@
 		(uuid "0db4846e-9b1e-4586-a14e-5f943e198941")
 	)
 	(junction
+		(at 68.58 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "105254da-bd37-46a6-b30a-4ef1d9b83dd0")
+	)
+	(junction
 		(at 364.49 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10133,6 +10717,12 @@
 		(uuid "30fb4a59-971a-4679-aea0-25ffabbd1749")
 	)
 	(junction
+		(at 69.85 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "380525a4-39ba-4097-96bf-13310b033a69")
+	)
+	(junction
 		(at 337.82 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10161,6 +10751,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c7eb46b-7c41-4683-bda6-ae1296507871")
+	)
+	(junction
+		(at 116.84 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d4f8f48-4823-4928-aa20-d55b13291e0b")
 	)
 	(junction
 		(at 50.8 349.885)
@@ -10193,6 +10789,12 @@
 		(uuid "6db00e90-8b2e-41e6-a17b-9680f6227395")
 	)
 	(junction
+		(at 101.6 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fed41f9-dbb9-47b1-b9d2-5a35d5736a38")
+	)
+	(junction
 		(at 336.55 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10209,6 +10811,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84642e7d-da26-4ecd-80fb-9704923339ec")
+	)
+	(junction
+		(at 209.55 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87012af3-5244-49bc-9d8d-5f0a8c15e4d4")
 	)
 	(junction
 		(at 165.1 205.74)
@@ -10245,6 +10853,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ad99073-4a88-4d5b-b4bc-52a896a13fcc")
+	)
+	(junction
+		(at 54.61 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f2c93a9-bfc3-440e-9352-18f12dd6caec")
+	)
+	(junction
+		(at 68.58 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a780dee9-42e0-4226-bdbe-825e511d4a90")
 	)
 	(junction
 		(at 364.49 135.89)
@@ -10289,16 +10909,34 @@
 		(uuid "b976848c-7fc1-4aee-8ada-83049298c5e1")
 	)
 	(junction
+		(at 102.87 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc8321da-47f9-45a0-81e8-0da82a12230c")
+	)
+	(junction
 		(at 180.34 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd2dbdf3-9ee6-42a5-abf6-68a4e3bbf72d")
 	)
 	(junction
+		(at 54.61 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd654881-a358-4efe-9f38-5634c33039ba")
+	)
+	(junction
 		(at 200.66 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be3bc083-a936-43e7-955d-138c34a23e99")
+	)
+	(junction
+		(at 115.57 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c15c2cee-1fa1-4798-b0e1-436e72ccdfeb")
 	)
 	(junction
 		(at 182.88 262.89)
@@ -10341,6 +10979,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4d544bb-7186-4753-bd9b-a6f7359982c3")
+	)
+	(junction
+		(at 55.88 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e61b8d8f-9341-4e7b-8c40-0b34bf0eb48d")
 	)
 	(junction
 		(at 363.22 60.96)
@@ -10486,6 +11130,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 161.29) (xy 73.66 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed79c8e-57df-4658-aab2-8523d75c495d")
+	)
+	(wire
+		(pts
 			(xy 438.15 109.22) (xy 454.66 109.22)
 		)
 		(stroke
@@ -10503,6 +11157,16 @@
 			(type default)
 		)
 		(uuid "10717e7b-0818-4fcc-88e6-48f084a90035")
+	)
+	(wire
+		(pts
+			(xy 101.6 140.97) (xy 96.52 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ba87c1-d771-4c6d-b700-60c76a7cc4a9")
 	)
 	(wire
 		(pts
@@ -10536,7 +11200,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 298.45) (xy 234.95 298.45)
+			(xy 215.9 293.37) (xy 234.95 293.37)
 		)
 		(stroke
 			(width 0)
@@ -10566,6 +11230,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 118.11) (xy 209.55 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15fb1992-e195-4332-b7c9-679826ec5101")
+	)
+	(wire
+		(pts
 			(xy 48.26 251.46) (xy 57.15 251.46)
 		)
 		(stroke
@@ -10586,6 +11260,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 135.89) (xy 55.88 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "171f9052-299e-4dcf-a209-ac39bf7a1897")
+	)
+	(wire
+		(pts
 			(xy 334.01 213.36) (xy 337.82 213.36)
 		)
 		(stroke
@@ -10603,6 +11287,16 @@
 			(type default)
 		)
 		(uuid "1bd8c97a-3b0d-40b3-a06d-cf345941260c")
+	)
+	(wire
+		(pts
+			(xy 54.61 148.59) (xy 58.42 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed1dd4b-1c78-469d-9c49-c027d52664c0")
 	)
 	(wire
 		(pts
@@ -10633,6 +11327,16 @@
 			(type default)
 		)
 		(uuid "256bbba4-7c78-4b27-8050-3b06a904c002")
+	)
+	(wire
+		(pts
+			(xy 116.84 161.29) (xy 119.38 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2610cf5d-cced-4fdd-8869-19a72c2c00f7")
 	)
 	(wire
 		(pts
@@ -10806,6 +11510,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 118.11) (xy 209.55 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30aef6d3-5531-432b-9f5d-02711cbefedd")
+	)
+	(wire
+		(pts
 			(xy 227.33 167.64) (xy 240.03 167.64)
 		)
 		(stroke
@@ -10856,13 +11570,13 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 293.37) (xy 240.03 293.37)
+			(xy 69.85 140.97) (xy 74.93 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37bbea0a-de48-4a7b-b92a-e5fa3575921a")
+		(uuid "38e2a39c-41ee-44fb-b82e-44532560391d")
 	)
 	(wire
 		(pts
@@ -10983,6 +11697,16 @@
 			(type default)
 		)
 		(uuid "4201935b-2aff-4739-84cc-2bdf11c6acd6")
+	)
+	(wire
+		(pts
+			(xy 68.58 161.29) (xy 73.66 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443a87aa-6cc4-447a-b107-0ab711b73067")
 	)
 	(wire
 		(pts
@@ -11156,6 +11880,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 190.5) (xy 85.09 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50390969-4c01-43e5-a48d-f0b81f498866")
+	)
+	(wire
+		(pts
 			(xy 222.25 278.13) (xy 227.33 278.13)
 		)
 		(stroke
@@ -11226,16 +11960,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 293.37) (xy 234.95 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5617571a-7662-45a0-a5b1-45754b4a5005")
-	)
-	(wire
-		(pts
 			(xy 48.26 248.92) (xy 57.15 248.92)
 		)
 		(stroke
@@ -11293,6 +12017,16 @@
 			(type default)
 		)
 		(uuid "5891f747-d930-4263-b1fa-60c46e951da1")
+	)
+	(wire
+		(pts
+			(xy 63.5 148.59) (xy 68.58 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e6fc41-2de5-4999-a6b0-e7b248a46ef5")
 	)
 	(wire
 		(pts
@@ -11456,6 +12190,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 162.56) (xy 54.61 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e6e994-40fa-4396-aacf-69a8e30373e8")
+	)
+	(wire
+		(pts
 			(xy 91.44 387.35) (xy 91.44 389.89)
 		)
 		(stroke
@@ -11536,6 +12280,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 135.89) (xy 115.57 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742056e4-bb4c-4746-8920-e4ee0731e627")
+	)
+	(wire
+		(pts
 			(xy 384.81 210.82) (xy 387.35 210.82)
 		)
 		(stroke
@@ -11563,6 +12317,26 @@
 			(type default)
 		)
 		(uuid "748d9f0e-af0d-48d0-bd59-a68505bf40e2")
+	)
+	(wire
+		(pts
+			(xy 55.88 137.16) (xy 55.88 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ee33f7-2cd7-4b6b-9396-623de1eba5da")
+	)
+	(wire
+		(pts
+			(xy 107.95 161.29) (xy 102.87 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f2d5e7-98fb-4ce8-bb09-64ddbc6bdddb")
 	)
 	(wire
 		(pts
@@ -11676,6 +12450,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 161.29) (xy 68.58 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb25d27-2b77-4b0f-b6c2-b37c8bcf0872")
+	)
+	(wire
+		(pts
 			(xy 196.85 275.59) (xy 196.85 262.89)
 		)
 		(stroke
@@ -11693,6 +12477,36 @@
 			(type default)
 		)
 		(uuid "7d65cc21-7255-4736-b142-b6bf9b94b6c7")
+	)
+	(wire
+		(pts
+			(xy 78.74 196.85) (xy 88.9 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dcd1b4c-ab11-4faf-a62e-31f218f14253")
+	)
+	(wire
+		(pts
+			(xy 80.01 194.31) (xy 88.9 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd0b7d0-1a42-4b42-be16-67e8a822a7d7")
+	)
+	(wire
+		(pts
+			(xy 116.84 161.29) (xy 113.03 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e122c94-e511-4399-a162-eb2218b17367")
 	)
 	(wire
 		(pts
@@ -11743,16 +12557,6 @@
 			(type default)
 		)
 		(uuid "8425f8f5-b360-4ba5-9e7b-96e16306c552")
-	)
-	(wire
-		(pts
-			(xy 243.84 295.91) (xy 240.03 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "843bdd83-209e-46ee-8c40-ca6d3ac393bc")
 	)
 	(wire
 		(pts
@@ -11876,6 +12680,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 135.89) (xy 101.6 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8edee62e-504d-46b5-a0d2-87176e130524")
+	)
+	(wire
+		(pts
 			(xy 182.88 262.89) (xy 185.42 262.89)
 		)
 		(stroke
@@ -11883,6 +12697,26 @@
 			(type default)
 		)
 		(uuid "8fefaea2-c514-409f-8fdc-6109ef7f6826")
+	)
+	(wire
+		(pts
+			(xy 96.52 148.59) (xy 120.65 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923a8726-e02b-462c-a38c-538b8a7d07e2")
+	)
+	(wire
+		(pts
+			(xy 48.26 148.59) (xy 54.61 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933d7fb9-8883-4a49-99d9-b87e57f71e68")
 	)
 	(wire
 		(pts
@@ -11936,7 +12770,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 300.99) (xy 243.84 300.99)
+			(xy 240.03 295.91) (xy 243.84 295.91)
 		)
 		(stroke
 			(width 0)
@@ -12146,6 +12980,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 137.16) (xy 115.57 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50e6d44-a3ee-4b48-ba7d-cfee4114d695")
+	)
+	(wire
+		(pts
 			(xy 224.79 167.64) (xy 224.79 168.91)
 		)
 		(stroke
@@ -12186,7 +13030,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 300.99) (xy 234.95 300.99)
+			(xy 215.9 295.91) (xy 234.95 295.91)
 		)
 		(stroke
 			(width 0)
@@ -12333,6 +13177,16 @@
 			(type default)
 		)
 		(uuid "b395144e-dda5-4f4e-b66d-fc95abc5b739")
+	)
+	(wire
+		(pts
+			(xy 101.6 135.89) (xy 101.6 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b427a5dc-527c-4b00-8c20-f5bf97117818")
 	)
 	(wire
 		(pts
@@ -12506,6 +13360,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 118.11) (xy 209.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2358912-0834-48fc-bc6f-da8aba3373bc")
+	)
+	(wire
+		(pts
 			(xy 387.985 210.82) (xy 387.35 210.82)
 		)
 		(stroke
@@ -12523,6 +13387,16 @@
 			(type default)
 		)
 		(uuid "c5e20b29-6a23-47e0-ab9d-420f8d6ffb2d")
+	)
+	(wire
+		(pts
+			(xy 73.66 156.21) (xy 74.93 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b623bb-21ad-4d66-9b98-27d7a7787f5b")
 	)
 	(wire
 		(pts
@@ -12556,6 +13430,26 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 135.89) (xy 69.85 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5b3333-fef3-4a9b-8c1f-08c18bd14068")
+	)
+	(wire
+		(pts
+			(xy 54.61 161.29) (xy 58.42 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc96ab1-f181-4936-9e26-ec5483367f15")
+	)
+	(wire
+		(pts
 			(xy 453.39 213.36) (xy 455.93 213.36)
 		)
 		(stroke
@@ -12563,6 +13457,16 @@
 			(type default)
 		)
 		(uuid "d082682e-9b9d-4807-b9af-e4d80efa3667")
+	)
+	(wire
+		(pts
+			(xy 64.77 135.89) (xy 69.85 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ea5209-8456-4d3f-997a-cc818ece3163")
 	)
 	(wire
 		(pts
@@ -12653,6 +13557,16 @@
 			(type default)
 		)
 		(uuid "d6c249e2-7965-488e-998c-b55f1a7c7119")
+	)
+	(wire
+		(pts
+			(xy 96.52 156.21) (xy 96.52 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e7b5b7-b87a-4047-abe8-af3771ce9b60")
 	)
 	(wire
 		(pts
@@ -12856,6 +13770,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 148.59) (xy 74.93 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22d1b65-d050-4bfb-87e3-3029ecfb697f")
+	)
+	(wire
+		(pts
 			(xy 215.9 285.75) (xy 227.33 285.75)
 		)
 		(stroke
@@ -12976,6 +13900,26 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 161.29) (xy 54.61 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94ca219-c1f9-4409-9b2b-5f3e18f1f806")
+	)
+	(wire
+		(pts
+			(xy 116.84 162.56) (xy 116.84 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaee24b3-cd23-4bf2-b910-4fe3ef1e098c")
+	)
+	(wire
+		(pts
 			(xy 452.12 218.44) (xy 455.93 218.44)
 		)
 		(stroke
@@ -13016,16 +13960,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 295.91) (xy 234.95 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef721ee2-7456-46f3-8e15-adf942c0a1eb")
-	)
-	(wire
-		(pts
 			(xy 383.54 304.8) (xy 386.08 304.8)
 		)
 		(stroke
@@ -13033,6 +13967,16 @@
 			(type default)
 		)
 		(uuid "efaf7166-d592-4d01-8f88-9acbe4ee6ccb")
+	)
+	(wire
+		(pts
+			(xy 121.92 135.89) (xy 115.57 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb04a04-6771-42fd-add1-2de3575b7592")
 	)
 	(wire
 		(pts
@@ -13063,6 +14007,16 @@
 			(type default)
 		)
 		(uuid "f11dbcb3-6447-488d-b0f3-44f3b9b62185")
+	)
+	(wire
+		(pts
+			(xy 59.69 135.89) (xy 55.88 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f218e210-b84a-4e61-ad92-728e00e1d05f")
 	)
 	(wire
 		(pts
@@ -13103,6 +14057,16 @@
 			(type default)
 		)
 		(uuid "f2db43d8-8ee5-4477-82bd-8a3b26f78ef3")
+	)
+	(wire
+		(pts
+			(xy 96.52 161.29) (xy 102.87 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3113ea1-f743-4db8-8210-c4ec2bbad1aa")
 	)
 	(wire
 		(pts
@@ -13156,7 +14120,17 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 298.45) (xy 243.84 298.45)
+			(xy 85.09 191.77) (xy 88.9 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7968e4-4e4d-4b90-a0e7-13e025c41a0c")
+	)
+	(wire
+		(pts
+			(xy 240.03 293.37) (xy 243.84 293.37)
 		)
 		(stroke
 			(width 0)
@@ -13298,7 +14272,7 @@
 	)
 	(rectangle
 		(start 61.595 54.229)
-		(end 171.577 124.968)
+		(end 171.577 119.38)
 		(stroke
 			(width 0)
 			(type default)
@@ -14239,28 +15213,6 @@
 			)
 		)
 	)
-	(global_label "GPI0_22"
-		(shape bidirectional)
-		(at 259.08 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "129ebfbe-91c9-48a2-a3f4-280c47fa70c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.9174 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "-3.5V"
 		(shape input)
 		(at 337.82 46.99 180)
@@ -14296,28 +15248,6 @@
 		(uuid "16267f62-97ec-4a7b-a738-95f41cd3a0a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 409.3852 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPI0_19"
-		(shape bidirectional)
-		(at 259.08 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "164df871-f611-4b4f-8345-589e6f978871")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.9174 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14732,28 +15662,6 @@
 		(uuid "2b470c54-009c-4e0c-a825-11266ac20cb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 224.5509 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART_Tx"
-		(shape bidirectional)
-		(at 243.84 293.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2be2de94-0d3b-4dee-a78b-991a009ef10e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.4771 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15419,28 +16327,6 @@
 			)
 		)
 	)
-	(global_label "UART_Rx"
-		(shape bidirectional)
-		(at 243.84 295.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5163ffee-1888-4fba-aa39-b0cbaacd8bb3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.7795 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "22"
 		(shape bidirectional)
 		(at 124.46 80.01 90)
@@ -15637,6 +16523,28 @@
 			)
 		)
 	)
+	(global_label "I2C_SCL"
+		(shape bidirectional)
+		(at 214.63 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f9d21c2-9f78-47e7-9d7f-d8d95706df14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.2066 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "7"
 		(shape bidirectional)
 		(at 495.3 71.12 0)
@@ -15672,6 +16580,28 @@
 		(uuid "63015a37-7283-4c14-8999-5d9602841512")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 512.7013 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 214.63 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6379ada2-a48e-411a-9f4b-fe7377ad9399")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.2671 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15941,6 +16871,28 @@
 			)
 		)
 	)
+	(global_label "SW_A"
+		(shape input)
+		(at 215.9 300.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69fce9dd-967f-4301-964d-dfea9558df77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.6023 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BICK"
 		(shape input)
 		(at 215.9 176.53 0)
@@ -16106,6 +17058,28 @@
 		(uuid "70c902de-3399-43ad-bb1d-9ee51667c897")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 501.8155 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW_B"
+		(shape input)
+		(at 121.92 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70ec3e8b-13fb-4e27-b9bb-762140b67979")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.8037 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16290,6 +17264,28 @@
 			)
 		)
 	)
+	(global_label "SW_D"
+		(shape input)
+		(at 215.9 351.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "765b8a67-740c-403a-9b45-b390cf700dce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.7837 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BOTTOM_RAIL_NEG"
 		(shape bidirectional)
 		(at 495.3 189.23 0)
@@ -16303,6 +17299,28 @@
 		(uuid "76da6184-763d-49e7-bd74-5480ce63abc1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 516.3903 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW_PUSH"
+		(shape input)
+		(at 215.9 341.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "777afc87-951b-4aba-affa-a173aacc510f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.6542 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16395,28 +17413,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPI0_23"
-		(shape bidirectional)
-		(at 215.9 351.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7d3ad538-1660-4a00-a774-d14bb87d01ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.7374 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -16591,6 +17587,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW_B"
+		(shape input)
+		(at 215.9 303.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8479c746-2fe5-4e68-aa08-cdc1bacf67cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.7837 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -16834,28 +17852,6 @@
 			)
 		)
 	)
-	(global_label "GPI0_22"
-		(shape bidirectional)
-		(at 215.9 349.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8f143bbc-500b-45ec-b992-a737bb8a592a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.7374 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_DATA_IN"
 		(shape input)
 		(at 259.08 95.25 0)
@@ -16896,28 +17892,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPI0_19"
-		(shape bidirectional)
-		(at 215.9 341.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "90fe5043-1664-48d1-acfc-048b79382e9a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.7374 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -17010,9 +17984,31 @@
 			)
 		)
 	)
-	(global_label "UART_Rx"
+	(global_label "-3.5V"
+		(shape output)
+		(at 88.9 199.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "985e22fa-f933-4357-85c3-b28621cf408d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.23 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPI0_2"
 		(shape bidirectional)
-		(at 259.08 68.58 0)
+		(at 215.9 298.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17020,9 +18016,9 @@
 			)
 			(justify left)
 		)
-		(uuid "99293025-9d71-47e2-9510-19142dc3b6d1")
+		(uuid "99110cb8-7740-41ea-9a9d-04f2cd9cb362")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.0195 68.58 0)
+			(at 226.5279 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17750,6 +18746,28 @@
 			)
 		)
 	)
+	(global_label "SW_C"
+		(shape input)
+		(at 215.9 349.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afd9ebc4-cc97-4139-a77b-3e31485a3803")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.7837 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "28"
 		(shape bidirectional)
 		(at 495.3 148.59 0)
@@ -17834,6 +18852,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW_A"
+		(shape input)
+		(at 49.53 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b16a1c92-6449-44f4-80ad-f6f7616bf007")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.8277 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -17927,7 +18967,7 @@
 	)
 	(global_label "Button_Probe"
 		(shape input)
-		(at 243.84 300.99 0)
+		(at 243.84 295.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17937,7 +18977,7 @@
 		)
 		(uuid "b55bbf4c-e0cb-47c6-bdd8-10da373bd551")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.404 300.99 0)
+			(at 259.404 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18035,7 +19075,7 @@
 			)
 		)
 	)
-	(global_label "GPI0_4"
+	(global_label "GPI0_2"
 		(shape bidirectional)
 		(at 259.08 77.47 0)
 		(fields_autoplaced yes)
@@ -18254,7 +19294,7 @@
 	)
 	(global_label "Select_Probe"
 		(shape input)
-		(at 243.84 298.45 0)
+		(at 243.84 293.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18264,7 +19304,7 @@
 		)
 		(uuid "c7c1c7db-5009-4efa-bf87-e6a50481d2e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.1018 298.45 0)
+			(at 259.1018 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18336,28 +19376,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART_Tx"
-		(shape bidirectional)
-		(at 259.08 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c8cb56e5-e3b1-470b-9f02-c9c98a4f49ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.7171 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -18488,6 +19506,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW_PUSH"
+		(shape input)
+		(at 48.26 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d153ebae-a5a9-4832-ba1d-90f51c902bde")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.5058 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -19016,28 +20056,6 @@
 			)
 		)
 	)
-	(global_label "GPI0_4"
-		(shape bidirectional)
-		(at 215.9 303.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e55c0a0d-5eda-4fa1-9d97-ef91f1eb48aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.5279 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "52"
 		(shape bidirectional)
 		(at 124.46 92.71 270)
@@ -19145,6 +20163,28 @@
 			)
 		)
 	)
+	(global_label "SW_D"
+		(shape input)
+		(at 119.38 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb5c0770-c6f9-4abe-91ac-91b34df71023")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.2637 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AOUT1L"
 		(shape input)
 		(at 259.08 59.69 0)
@@ -19229,6 +20269,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+18V"
+		(shape output)
+		(at 88.9 201.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eef482f2-e7a0-4a73-a774-029b4da71ed4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.8348 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -19320,28 +20382,6 @@
 			)
 		)
 	)
-	(global_label "GPI0_23"
-		(shape bidirectional)
-		(at 259.08 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f33ad92d-2100-4fe1-b0bd-34b7133f700e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.9174 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "38"
 		(shape bidirectional)
 		(at 88.9 92.71 270)
@@ -19399,6 +20439,28 @@
 		(uuid "f7596f96-10bf-47a2-9ad7-9bce90dbc837")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 149.86 113.8608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW_C"
+		(shape input)
+		(at 48.26 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7e96f82-9255-4423-8b73-b4e82b33cf9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.3763 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19587,7 +20649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:SolderJumper_2_Bridged_Small"
 			(at 52.07 195.58 0)
 			(effects
 				(font
@@ -19723,7 +20785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 412.75 142.24 0)
 			(effects
 				(font
@@ -19760,6 +20822,72 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05657087-80d1-494e-9cbd-60b65cb7f0d5")
+		(property "Reference" "#PWR066"
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 146.3731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d305943-9946-49c7-a47c-8d2f0a080ddc")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -19859,7 +20987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 412.75 224.79 0)
 			(effects
 				(font
@@ -19926,7 +21054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:TestPoint_D0.75mm"
 			(at 259.08 38.1 0)
 			(effects
 				(font
@@ -19982,7 +21110,7 @@
 				)
 			)
 		)
-		(property "Value" "GPIO_4"
+		(property "Value" "GPIO_2"
 			(at 246.126 77.47 90)
 			(effects
 				(font
@@ -19990,7 +21118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:TestPoint_D0.75mm"
 			(at 259.08 72.39 0)
 			(effects
 				(font
@@ -20098,6 +21226,76 @@
 		)
 	)
 	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 68.58 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b4fb067-a08c-487d-a9d5-d50a52a4be1e")
+		(property "Reference" "R29"
+			(at 70.231 144.8378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47K"
+			(at 70.231 147.2621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 68.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 68.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47cb0b04-11b6-4cd5-9531-50e08cf6c5ba")
+		)
+		(pin "2"
+			(uuid "33fa87d2-6092-4565-a22a-1d8b3093587f")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JumperlessSymbols:C")
 		(at 154.94 262.89 0)
 		(unit 1)
@@ -20124,7 +21322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 155.9052 266.7 0)
 			(effects
 				(font
@@ -20195,7 +21393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 152.4 208.28 0)
 			(effects
 				(font
@@ -20332,7 +21530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 374.65 138.43 0)
 			(effects
 				(font
@@ -20401,7 +21599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 448.31 68.58 0)
 			(effects
 				(font
@@ -20823,7 +22021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 412.75 217.17 0)
 			(effects
 				(font
@@ -20867,70 +22065,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 259.08 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13ddc1bd-6f7c-4b73-9adb-f2b57156e563")
-		(property "Reference" "TP18"
-			(at 252.73 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GPIO_22"
-			(at 246.126 82.296 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 259.08 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1571e141-a0fe-4145-adcd-57459761d28e")
-		)
-		(instances
-			(project "SenseBarnacle"
-				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 259.08 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20954,7 +22088,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:TestPoint_D0.75mm"
 			(at 259.08 26.67 0)
 			(effects
 				(font
@@ -21086,7 +22220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JumperlessFootprints:HEE70LP03BK_Daughter_Penis"
+		(property "Footprint" "JumperlessFootprints:HEE70LP03BK_Daughter_Penis_Top"
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -21333,6 +22467,77 @@
 		)
 	)
 	(symbol
+		(lib_id "JumperlessSymbols:C_Small")
+		(at 116.84 165.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2011fd85-fc5b-4784-b41e-433bbe5d4f19")
+		(property "Reference" "C25"
+			(at 114.5159 163.8941 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 114.5159 166.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 116.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fec802f6-b618-4384-9529-b4afc7b9412b")
+		)
+		(pin "1"
+			(uuid "d2b549d7-a327-415e-b6cc-46b31f83559b")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_6")
 		(lib_id "power:GND")
 		(at 374.65 140.97 0)
@@ -21427,7 +22632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 210.5152 266.7 0)
 			(effects
 				(font
@@ -21470,6 +22675,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 85.09 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22df4250-7475-4ce2-9c6d-0dda1cb185b3")
+		(property "Reference" "#PWR073"
+			(at 85.09 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 85.09 186.9981 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e011249a-d444-4080-868c-689dc8de42fb")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JumperlessSymbols:R_Small_US_3")
 		(at 412.75 149.86 0)
 		(unit 1)
@@ -21497,7 +22768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 412.75 149.86 0)
 			(effects
 				(font
@@ -21702,7 +22973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:PINHEADER-1x1_vertical"
 			(at 251.46 115.57 0)
 			(effects
 				(font
@@ -21770,7 +23041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 374.65 213.36 0)
 			(effects
 				(font
@@ -21911,7 +23182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 373.38 63.5 0)
 			(effects
 				(font
@@ -22020,6 +23291,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 78.74 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fb9d575-912c-4ad0-9ebd-77fff22c0449")
+		(property "Reference" "#PWR074"
+			(at 78.74 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 200.9831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d012c8e7-d3f2-4d1b-8c9e-7fdcd20a53ec")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JumperlessSymbols:R_Small_US_3")
 		(at 448.31 143.51 270)
 		(unit 1)
@@ -22046,7 +23383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 448.31 143.51 0)
 			(effects
 				(font
@@ -22083,6 +23420,77 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 102.87 158.75 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31876d71-e73c-471b-9620-96a82a1ef970")
+		(property "Reference" "R37"
+			(at 101.219 157.5378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47K"
+			(at 101.219 159.9621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 102.87 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 102.87 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee16be64-e854-4c95-b2e0-e22f26122232")
+		)
+		(pin "2"
+			(uuid "780c7aa3-b8bc-470b-aedf-f7f23dbc3e5b")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -22222,6 +23630,73 @@
 	)
 	(symbol
 		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 60.96 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36e499a7-f670-459f-9f9a-51d7005ce71a")
+		(property "Reference" "R30"
+			(at 60.96 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 60.96 145.9808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 60.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 60.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a50175e-ab28-43f5-8bf0-bffb3c4a7e2b")
+		)
+		(pin "1"
+			(uuid "bd0fe172-3c67-4ab7-a0ac-d2adfdfef1ed")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
 		(at 382.27 135.89 270)
 		(mirror x)
 		(unit 1)
@@ -22247,7 +23722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 382.27 135.89 0)
 			(effects
 				(font
@@ -22315,7 +23790,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:LQFP44_Tight"
 			(at 474.98 163.83 0)
 			(effects
 				(font
@@ -22485,7 +23960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AK4619VN_AKM"
+		(property "Footprint" "JumperlessFootprints:AK4619VN_AKM"
 			(at 208.28 157.48 0)
 			(effects
 				(font
@@ -22849,7 +24324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 90.17 346.202 90)
 			(effects
 				(font
@@ -22918,7 +24393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 349.25 60.96 0)
 			(effects
 				(font
@@ -22991,6 +24466,77 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 101.6 133.35 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42c647ee-315d-4bd2-b2d3-85451316dfba")
+		(property "Reference" "R33"
+			(at 99.949 132.1378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47K"
+			(at 99.949 134.5621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 101.6 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 101.6 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55fb91c5-bac8-4ec6-8d53-c76dfc4933c2")
+		)
+		(pin "2"
+			(uuid "ea17424a-94ef-465d-b542-10b9fa3e7cde")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -23130,6 +24676,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46cac165-1eac-4ffc-8f63-4ce8efdc1f0a")
+		(property "Reference" "#PWR064"
+			(at 120.65 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 152.7231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fee35fa-2908-43d6-8e37-6fe2399e57f4")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 52.07 207.01 0)
 		(unit 1)
@@ -23155,7 +24767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:SolderJumper_2_Open_Small"
 			(at 52.07 207.01 0)
 			(effects
 				(font
@@ -23225,7 +24837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:PINHEADER-1x1_vertical"
 			(at 251.46 135.89 0)
 			(effects
 				(font
@@ -23423,7 +25035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 449.58 63.5 0)
 			(effects
 				(font
@@ -23466,32 +25078,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 259.08 68.58 90)
+		(lib_id "JumperlessSymbols:C_Small")
+		(at 54.61 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4d54fd99-393b-41d1-94ac-2f84a8466532")
-		(property "Reference" "TP8"
-			(at 252.476 68.834 90)
+		(fields_autoplaced yes)
+		(uuid "4bd92ae0-d9c5-43c0-ad99-61eb26f5e25d")
+		(property "Reference" "C19"
+			(at 56.9341 149.9241 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "UART_Rx"
-			(at 246.126 68.58 90)
+		(property "Value" "0.1uF"
+			(at 56.9341 152.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 259.08 63.5 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 54.61 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23499,8 +25114,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 259.08 63.5 0)
+		(property "Datasheet" ""
+			(at 54.61 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23508,22 +25123,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 259.08 68.58 0)
+		(property "Description" ""
+			(at 54.61 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "55a5a9de-65af-415c-88b0-cbb60c701159")
 		)
 		(pin "1"
-			(uuid "f0b7d6ad-613e-4586-8b85-a5464b0eb1a5")
+			(uuid "6245b409-8c70-4d9d-97e3-d6247aae3496")
 		)
 		(instances
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
-					(reference "TP8")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -23554,7 +25172,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:TestPoint_D0.75mm"
 			(at 259.08 35.56 0)
 			(effects
 				(font
@@ -23620,7 +25238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 80.9752 387.35 0)
 			(effects
 				(font
@@ -23755,7 +25373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 381 60.96 0)
 			(effects
 				(font
@@ -23822,7 +25440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:TestPoint_D0.75mm"
 			(at 259.08 29.21 0)
 			(effects
 				(font
@@ -23888,7 +25506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 40.64 386.08 0)
 			(effects
 				(font
@@ -24154,7 +25772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 449.58 218.44 0)
 			(effects
 				(font
@@ -24221,7 +25839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 231.14 276.352 90)
 			(effects
 				(font
@@ -24355,7 +25973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 347.98 48.26 0)
 			(effects
 				(font
@@ -24434,6 +26052,76 @@
 		)
 	)
 	(symbol
+		(lib_id "JumperlessSymbols:C_Small")
+		(at 54.61 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "630d6a40-8677-4d76-94c9-6e985ae2de94")
+		(property "Reference" "C20"
+			(at 56.9341 163.8941 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 56.9341 166.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2780c25-ec61-46ed-8502-468ecd6213a6")
+		)
+		(pin "1"
+			(uuid "426a46c7-38dd-4187-9839-f5a957485d95")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JumperlessSymbols:C")
 		(at 57.15 347.98 270)
 		(unit 1)
@@ -24503,24 +26191,97 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 259.08 85.09 90)
+		(lib_id "JumperlessSymbols:C_Small")
+		(at 115.57 139.7 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "64cd474a-0129-4ce8-8fc0-deb43dde88c1")
-		(property "Reference" "TP19"
-			(at 252.73 85.09 90)
+		(fields_autoplaced yes)
+		(uuid "6409821e-740b-4143-a89e-0b627f302eb4")
+		(property "Reference" "C23"
+			(at 113.2459 138.4941 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GPIO_23"
-			(at 246.126 84.836 90)
+		(property "Value" "0.1uF"
+			(at 113.2459 140.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 115.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f076c07-1494-4c3f-b424-ba673c972144")
+		)
+		(pin "1"
+			(uuid "ed1ff197-d66f-452e-99f8-5e01abaad0bf")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 101.6 130.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64a2f2db-2792-4433-ae89-ec42177eae4b")
+		(property "Reference" "#PWR071"
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 101.219 126.4158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24528,7 +26289,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 80.01 0)
+			(at 101.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24536,8 +26297,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 259.08 80.01 0)
+		(property "Datasheet" ""
+			(at 101.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24545,8 +26306,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 259.08 85.09 0)
+		(property "Description" ""
+			(at 101.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24555,12 +26316,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "31c0a5b4-3543-401c-ab0d-b75d10acae81")
+			(uuid "722015c6-4dbb-4136-bf9a-b09488cdc111")
 		)
 		(instances
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
-					(reference "TP19")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -25106,70 +26867,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 259.08 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a586da5-9353-4c74-8d86-5499cd09cea6")
-		(property "Reference" "TP17"
-			(at 252.73 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GPIO_19"
-			(at 246.126 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 259.08 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e82c19f9-6db3-47b0-87d3-d1d0ae21c18b")
-		)
-		(instances
-			(project "SenseBarnacle"
-				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 226.06 138.43 0)
 		(unit 1)
@@ -25368,73 +27065,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JumperlessSymbols:R_Small_US_2")
-		(at 237.49 295.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "707aea46-3b2c-462f-9575-382edf6d7215")
-		(property "Reference" "R6"
-			(at 234.696 294.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 240.03 294.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 237.49 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04044ea6-2e91-4162-9986-6a71c72d1221")
-		)
-		(pin "2"
-			(uuid "436358bf-8f2a-415b-8899-f5bdca6db734")
-		)
-		(instances
-			(project "SenseBarnacle"
-				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 259.08 52.07 90)
 		(unit 1)
@@ -25459,7 +27089,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:TestPoint_D0.75mm"
 			(at 259.08 46.99 0)
 			(effects
 				(font
@@ -25590,7 +27220,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:SolderJumper_2_Open_Small"
 			(at 52.07 209.55 0)
 			(effects
 				(font
@@ -25659,7 +27289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 381 304.8 0)
 			(effects
 				(font
@@ -25864,7 +27494,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 373.38 307.34 0)
 			(effects
 				(font
@@ -25901,6 +27531,71 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 68.58 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "780ade59-577c-4582-a6d2-6dd990d95a2a")
+		(property "Reference" "#PWR069"
+			(at 68.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 68.961 151.8158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7490ea80-4615-4322-b7b5-3fe305175d30")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -25973,6 +27668,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 80.01 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c3becd3-8fcf-455a-a33f-74988e43e8e0")
+		(property "Reference" "#PWR077"
+			(at 80.01 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 80.391 189.9158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8aee355-6d97-4380-a25c-fb3cc1f66acd")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 259.08 92.71 90)
 		(unit 1)
@@ -25997,7 +27757,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:TestPoint_D0.75mm"
 			(at 259.08 87.63 0)
 			(effects
 				(font
@@ -26031,6 +27791,74 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 212.09 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f51251e-cfdd-4e03-8807-863c3a84b220")
+		(property "Reference" "R35"
+			(at 212.09 111.8065 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 212.09 114.2308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 212.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 212.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "913f8608-fcd3-4bcf-86fd-f732073df1f1")
+		)
+		(pin "1"
+			(uuid "93234376-9082-4b9b-a8a7-f3cf956d737f")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -26100,6 +27928,142 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 68.58 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80c3b6b7-3c51-4c44-b93c-3c5fcd87e088")
+		(property "Reference" "R31"
+			(at 70.231 157.5378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47K"
+			(at 70.231 159.9621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 68.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 68.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34a25fac-151a-4b86-9ce2-ecd0360b9211")
+		)
+		(pin "2"
+			(uuid "6d5e97e0-5463-40fa-b348-1b135fac98e2")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 102.87 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81318bdf-9161-432e-aa39-410d34b857fd")
+		(property "Reference" "#PWR075"
+			(at 102.87 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 102.489 151.8158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fec8dce3-a911-464d-a979-f91fd550638b")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -26205,7 +28169,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:TestPoint_D0.75mm"
 			(at 259.08 54.61 0)
 			(effects
 				(font
@@ -26233,7 +28197,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a64f17e-5069-4316-9b53-e8fa0781cfc0")
+			(uuid "6a64f17e-5069-4316-9b53-e8fa0781cfc1")
 		)
 		(instances
 			(project "SenseBarnacle"
@@ -26269,7 +28233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 231.14 283.972 90)
 			(effects
 				(font
@@ -26405,7 +28369,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:PINHEADER-1x1_vertical"
 			(at 241.3 119.38 0)
 			(effects
 				(font
@@ -26433,7 +28397,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8dbf643-5ba4-4625-8266-0dc05cf4096e")
+			(uuid "b8dbf643-5ba4-4625-8266-0dc05cf4096f")
 		)
 		(instances
 			(project "SenseBarnacle"
@@ -26513,6 +28477,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 115.57 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88f16cdc-3124-48de-a482-9fb3d97d620f")
+		(property "Reference" "#PWR072"
+			(at 115.57 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 146.3731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0746ec08-0452-4ca9-97f3-6263641da412")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JumperlessSymbols:C")
 		(at 68.58 383.54 0)
 		(unit 1)
@@ -26539,7 +28571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 69.5452 387.35 0)
 			(effects
 				(font
@@ -26675,7 +28707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 396.24 46.99 0)
 			(effects
 				(font
@@ -26978,7 +29010,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:TestPoint_D0.75mm"
 			(at 259.08 24.13 0)
 			(effects
 				(font
@@ -27044,7 +29076,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 350.52 135.89 0)
 			(effects
 				(font
@@ -27147,7 +29179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 46.99 295.402 90)
 			(effects
 				(font
@@ -27287,7 +29319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:QA503C"
 			(at 93.98 215.9 0)
 			(effects
 				(font
@@ -27495,7 +29527,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
 			(at 30.48 229.616 0)
 			(effects
 				(font
@@ -27532,6 +29564,75 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 109.22 135.89 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c669950-b02c-48d4-9539-112afd8be5c0")
+		(property "Reference" "R34"
+			(at 109.22 130.8565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 109.22 133.2808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 109.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 109.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c0c729d-db1d-4f17-bd78-ada1b0ac53db")
+		)
+		(pin "1"
+			(uuid "969c760a-01b9-45a3-82a7-090e1c716ba5")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -27603,6 +29704,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 207.01 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c89a230-61e3-48ed-9fb2-13b686b3c440")
+		(property "Reference" "#PWR078"
+			(at 207.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 207.391 113.7158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46c42884-ac24-41de-aad4-e7dd019b474b")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 259.08 57.15 90)
 		(unit 1)
@@ -27627,7 +29793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:TestPoint_D0.75mm"
 			(at 259.08 52.07 0)
 			(effects
 				(font
@@ -27655,7 +29821,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a64f17e-5069-4316-9b53-e8fa0781cfc0")
+			(uuid "6a64f17e-5069-4316-9b53-e8fa0781cfc2")
 		)
 		(instances
 			(project "SenseBarnacle"
@@ -27734,6 +29900,75 @@
 	)
 	(symbol
 		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 110.49 161.29 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f48cc2b-ef73-40eb-b80a-f67bd04dacf1")
+		(property "Reference" "R38"
+			(at 110.49 156.2565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 110.49 158.6808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 110.49 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 110.49 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfaa1d2a-617f-4055-a37c-afea040aa8e6")
+		)
+		(pin "1"
+			(uuid "6f12789f-fc2a-4d47-ad39-9373b21a5931")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
 		(at 450.85 138.43 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27757,7 +29992,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 450.85 138.43 0)
 			(effects
 				(font
@@ -27794,6 +30029,141 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 62.23 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a09de97d-6c9c-47ff-8ea0-c1357e5a5fe5")
+		(property "Reference" "R6"
+			(at 62.23 130.8565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 62.23 133.2808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 62.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 62.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1adf8e9-4ca6-4938-a3da-7c3a2d9d1e83")
+		)
+		(pin "1"
+			(uuid "8925e06a-bfc8-4391-b0d8-5b6358cf5593")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 167.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1a85649-031a-4fe6-868b-5793cffac2f2")
+		(property "Reference" "#PWR076"
+			(at 116.84 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 171.7731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85523efb-c242-46bc-9f30-77e8934d003b")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -27890,7 +30260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RP2040_minimal:RP2040-QFN-56"
+		(property "Footprint" "JumperlessFootprints:RP2040-QFN-56"
 			(at 165.1 326.39 0)
 			(effects
 				(font
@@ -28232,6 +30602,76 @@
 	)
 	(symbol
 		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 69.85 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4ddbbb8-294f-46a8-957f-d23820aae88d")
+		(property "Reference" "R5"
+			(at 71.501 132.1378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47K"
+			(at 71.501 134.5621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 69.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 69.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32c80e42-b481-4c0c-9c3b-5f5d86ce6cb4")
+		)
+		(pin "2"
+			(uuid "b1136c34-02b7-4f3f-b025-16c168c8c780")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
 		(at 450.85 213.36 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28255,7 +30695,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 450.85 213.36 0)
 			(effects
 				(font
@@ -28325,7 +30765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 227.33 170.18 0)
 			(effects
 				(font
@@ -28394,7 +30834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 395.605 58.42 0)
 			(effects
 				(font
@@ -28474,7 +30914,7 @@
 	)
 	(symbol
 		(lib_id "JumperlessSymbols:R_Small_US_2")
-		(at 237.49 298.45 90)
+		(at 237.49 293.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28482,7 +30922,7 @@
 		(dnp no)
 		(uuid "b6b91166-1c64-4dfb-8894-ea41fb26c195")
 		(property "Reference" "R27"
-			(at 234.696 297.18 90)
+			(at 234.696 292.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28490,15 +30930,15 @@
 			)
 		)
 		(property "Value" "2.2K"
-			(at 241.046 297.434 90)
+			(at 241.046 292.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 237.49 298.45 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 237.49 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28507,7 +30947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 298.45 0)
+			(at 237.49 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28516,7 +30956,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 298.45 0)
+			(at 237.49 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28630,7 +31070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:TestPoint_D0.75mm"
 			(at 259.08 49.53 0)
 			(effects
 				(font
@@ -28658,7 +31098,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a64f17e-5069-4316-9b53-e8fa0781cfc0")
+			(uuid "6a64f17e-5069-4316-9b53-e8fa0781cfc3")
 		)
 		(instances
 			(project "SenseBarnacle"
@@ -28696,7 +31136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 102.5652 252.73 0)
 			(effects
 				(font
@@ -28765,7 +31205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 382.27 210.82 0)
 			(effects
 				(font
@@ -28834,7 +31274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 396.875 133.35 0)
 			(effects
 				(font
@@ -29117,6 +31557,74 @@
 		)
 	)
 	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 60.96 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c49cbf2b-29f1-439c-89b7-829b4fe3b055")
+		(property "Reference" "R32"
+			(at 60.96 156.2565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 60.96 158.6808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 60.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 60.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e25e0a5d-756d-4c79-8a81-e8b71465eaee")
+		)
+		(pin "1"
+			(uuid "abbd64ac-f65e-4b36-b75a-f8c87f9e7b1f")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
 		(at 330.2 307.34 90)
 		(unit 1)
@@ -29144,7 +31652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm"
 			(at 330.2 307.34 0)
 			(effects
 				(font
@@ -29217,7 +31725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 207.01 133.35 0)
 			(effects
 				(font
@@ -29290,7 +31798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:TestPoint_D0.75mm"
 			(at 259.08 90.17 0)
 			(effects
 				(font
@@ -29396,6 +31904,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 68.58 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc13f73a-e0b1-4e32-9057-9b1ed23d0412")
+		(property "Reference" "#PWR067"
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 66.802 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b44b33d2-81ab-4c22-9eb2-c856ca5c50a2")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JumperlessSymbols:R_Small_US_3")
 		(at 411.48 67.31 0)
 		(unit 1)
@@ -29423,7 +31996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 411.48 67.31 0)
 			(effects
 				(font
@@ -29663,32 +32236,33 @@
 		)
 	)
 	(symbol
-		(lib_id "JumperlessSymbols:R_Small_US_2")
-		(at 237.49 300.99 90)
+		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 212.09 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d28d1802-4dba-4676-962a-514a443dac6a")
-		(property "Reference" "R28"
-			(at 234.696 299.974 90)
+		(fields_autoplaced yes)
+		(uuid "d1fe1bde-8eb5-4523-b568-08934c457a91")
+		(property "Reference" "R36"
+			(at 212.09 114.3465 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 240.03 299.974 90)
+		(property "Value" "2.2K"
+			(at 212.09 116.7708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 237.49 300.99 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 212.09 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29697,7 +32271,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 300.99 0)
+			(at 212.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 212.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "913f8608-fcd3-4bcf-86fd-f732073df1f1")
+		)
+		(pin "1"
+			(uuid "93234376-9082-4b9b-a8a7-f3cf956d737f")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_2")
+		(at 237.49 295.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d28d1802-4dba-4676-962a-514a443dac6a")
+		(property "Reference" "R28"
+			(at 234.696 294.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 240.03 294.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 237.49 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29706,7 +32347,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 300.99 0)
+			(at 237.49 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29757,7 +32398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 411.48 74.93 0)
 			(effects
 				(font
@@ -29825,7 +32466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:LQFP44_Tight"
 			(at 476.25 238.76 0)
 			(effects
 				(font
@@ -29996,7 +32637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 103.8352 387.35 0)
 			(effects
 				(font
@@ -30039,6 +32680,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 54.61 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d993ef89-10e9-4fdf-ab75-344d9178402e")
+		(property "Reference" "#PWR068"
+			(at 54.61 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 157.8031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55f38052-ddea-4db2-9e37-e9138f12f442")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:C_Small")
+		(at 55.88 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da7967e1-5120-4068-a180-f7c65b5136bd")
+		(property "Reference" "C18"
+			(at 58.2041 138.4941 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 58.2041 140.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 55.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f29d226a-de2c-477d-bf37-93669ae24193")
+		)
+		(pin "1"
+			(uuid "2c0993c4-ae8c-45c0-8a1b-8e7756375159")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JumperlessSymbols:C_Small")
 		(at 40.64 378.46 0)
 		(unit 1)
@@ -30065,7 +32842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 40.64 378.46 0)
 			(effects
 				(font
@@ -30134,7 +32911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 396.875 208.28 0)
 			(effects
 				(font
@@ -30240,7 +33017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm"
 			(at 330.2 213.36 0)
 			(effects
 				(font
@@ -30268,13 +33045,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "96b42009-d2bc-4e5b-883f-ff5d341fbbc9")
+			(uuid "96b42009-d2bc-4e5b-883f-ff5d341fbbca")
 		)
 		(pin "1"
-			(uuid "e68a4cb1-45aa-4702-a25d-7743bf135df2")
+			(uuid "e68a4cb1-45aa-4702-a25d-7743bf135df3")
 		)
 		(pin "2"
-			(uuid "e8f441ac-4b83-4e9b-ba42-50f9ab605488")
+			(uuid "e8f441ac-4b83-4e9b-ba42-50f9ab605489")
 		)
 		(instances
 			(project "SenseBarnacle"
@@ -30313,7 +33090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm"
 			(at 328.93 63.5 0)
 			(effects
 				(font
@@ -30341,13 +33118,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "96b42009-d2bc-4e5b-883f-ff5d341fbbc9")
+			(uuid "96b42009-d2bc-4e5b-883f-ff5d341fbbcb")
 		)
 		(pin "1"
-			(uuid "e68a4cb1-45aa-4702-a25d-7743bf135df2")
+			(uuid "e68a4cb1-45aa-4702-a25d-7743bf135df4")
 		)
 		(pin "2"
-			(uuid "e8f441ac-4b83-4e9b-ba42-50f9ab605488")
+			(uuid "e8f441ac-4b83-4e9b-ba42-50f9ab60548a")
 		)
 		(instances
 			(project "SenseBarnacle"
@@ -30425,32 +33202,33 @@
 		)
 	)
 	(symbol
-		(lib_id "JumperlessSymbols:R_Small_US_2")
-		(at 237.49 293.37 90)
+		(lib_id "JumperlessSymbols:Switch_Multidirectional")
+		(at 86.36 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e2969d08-a932-4211-8708-de5a360cce55")
-		(property "Reference" "R5"
-			(at 234.696 292.1 90)
+		(fields_autoplaced yes)
+		(uuid "e1f7d17d-a3ec-47cf-aa69-25853189556d")
+		(property "Reference" "U4"
+			(at 85.725 137.1685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 240.03 292.1 90)
+		(property "Value" "~"
+			(at 85.725 138.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 237.49 293.37 0)
+		(property "Footprint" "JumperlessFootprints:Directional_Switch_SKRHADE010"
+			(at 86.36 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30458,8 +33236,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 237.49 293.37 0)
+		(property "Datasheet" ""
+			(at 86.36 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30468,7 +33246,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 293.37 0)
+			(at 86.36 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30476,16 +33254,28 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e183e207-70c6-414a-8e60-33bc45d27d6f")
+		(pin "3"
+			(uuid "edf8baea-475c-4ad7-9fdd-26d9d7ef225f")
+		)
+		(pin "4"
+			(uuid "5420c901-805a-43e4-8c4f-a19411657f0e")
 		)
 		(pin "2"
-			(uuid "7ab8d4ba-b80e-4ca7-ade6-04c80fdb8dc8")
+			(uuid "273ad1a0-39f2-4f76-8de3-1157cfa2d9cf")
+		)
+		(pin "6"
+			(uuid "a8f5abf2-da32-46d5-9105-8f052827818c")
+		)
+		(pin "5"
+			(uuid "24bdae11-6315-44c9-b0f7-8df9613e62a7")
+		)
+		(pin "1"
+			(uuid "403a5824-6687-4925-aefa-3ddf0dfe8ee6")
 		)
 		(instances
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
-					(reference "R5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -30518,7 +33308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 395.605 302.26 0)
 			(effects
 				(font
@@ -30623,7 +33413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 350.52 210.82 0)
 			(effects
 				(font
@@ -30702,25 +33492,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 259.08 71.12 90)
-		(mirror x)
+		(lib_id "power:+3V3")
+		(at 69.85 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e858c4e4-e8dd-4d36-8b73-6ac7ea91df65")
-		(property "Reference" "TP9"
-			(at 252.476 71.374 90)
+		(uuid "e924f5d9-fbe3-48eb-b032-3428533fd123")
+		(property "Reference" "#PWR065"
+			(at 69.85 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "UART_Tx"
-			(at 246.126 71.12 90)
+		(property "Value" "+3V3"
+			(at 70.231 126.4158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30728,7 +33518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 76.2 0)
+			(at 69.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30736,8 +33526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 259.08 76.2 0)
+		(property "Datasheet" ""
+			(at 69.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30745,8 +33535,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 259.08 71.12 0)
+		(property "Description" ""
+			(at 69.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30755,12 +33545,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d987139-5cb4-479f-871d-92d87acd72c8")
+			(uuid "5384a25b-fa69-46f3-b1a1-03f7c37a1bca")
 		)
 		(instances
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
-					(reference "TP9")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -31010,7 +33800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 92.4052 387.35 0)
 			(effects
 				(font
@@ -31079,7 +33869,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 349.25 304.8 0)
 			(effects
 				(font
@@ -31184,7 +33974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 67.0052 252.73 0)
 			(effects
 				(font
@@ -31359,6 +34149,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x05_Socket")
+		(at 93.98 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6040e38-58db-43fa-ae81-ecb6a490047e")
+		(property "Reference" "J3"
+			(at 94.6912 195.6378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power"
+			(at 94.6912 198.0621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 93.98 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 93.98 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95f5bc1c-6f91-49e6-afa9-8c3a03093f6b")
+		)
+		(pin "2"
+			(uuid "20aa1e42-4941-43f2-9af6-41598f731cae")
+		)
+		(pin "3"
+			(uuid "ee33c55d-a3d4-4464-ad9d-486b6fa73f36")
+		)
+		(pin "5"
+			(uuid "e46ea299-63eb-4806-8f4b-cb186d1f0960")
+		)
+		(pin "4"
+			(uuid "b0441ea2-2f49-4bf7-8dc6-2ef98a51e5a0")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JumperlessSymbols:C")
 		(at 143.51 252.095 0)
 		(unit 1)
@@ -31385,7 +34254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 144.4752 255.905 0)
 			(effects
 				(font
@@ -31455,7 +34324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm"
 			(at 327.66 138.43 0)
 			(effects
 				(font
@@ -31483,13 +34352,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "96b42009-d2bc-4e5b-883f-ff5d341fbbc9")
+			(uuid "96b42009-d2bc-4e5b-883f-ff5d341fbbcc")
 		)
 		(pin "1"
-			(uuid "e68a4cb1-45aa-4702-a25d-7743bf135df2")
+			(uuid "e68a4cb1-45aa-4702-a25d-7743bf135df5")
 		)
 		(pin "2"
-			(uuid "e8f441ac-4b83-4e9b-ba42-50f9ab605488")
+			(uuid "e8f441ac-4b83-4e9b-ba42-50f9ab60548b")
 		)
 		(instances
 			(project "SenseBarnacle"
@@ -31658,7 +34527,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:LQFP44_Tight"
 			(at 474.98 88.9 0)
 			(effects
 				(font
@@ -31895,7 +34764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JumperlessFootprints:TestPoint_D0.75mm"
 			(at 259.08 40.64 0)
 			(effects
 				(font
@@ -31929,6 +34798,72 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd3f2d9b-4b5d-4937-b54d-3918384cbf5e")
+		(property "Reference" "#PWR070"
+			(at 54.61 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 171.7731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c79b5cbc-4ec4-4da7-85ac-fb5a24242d84")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
