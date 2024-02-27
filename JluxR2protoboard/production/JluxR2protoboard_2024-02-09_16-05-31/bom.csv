@@ -1,7 +1,0 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"J1, J2",ProtoboardRow,2,Conn_01x30,
-"J11, J12",HEE70LP03BK_Daughter_Penis,2,Conn_02x35_JumperluxCardEdge,
-TP24,ProtoPower,1,TOP_POS_RAIL,
-TP26,ProtoPower,1,TOP_NEG_RAIL,
-TP28,ProtoPower,1,BOTTOM_POS_RAIL,
-TP30,ProtoPower,1,BOTTOM_NEG_RAIL,
