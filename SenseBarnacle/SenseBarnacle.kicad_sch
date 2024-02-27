@@ -1080,185 +1080,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Barrel_Jack"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Barrel_Jack"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Barrel Jack"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DC power barrel jack connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "BarrelJack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Barrel_Jack_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_1_1"
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -11010,6 +10831,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 138.43) (xy 337.82 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b2dc85-e7c5-4b93-9668-14e8edf25840")
+	)
+	(wire
+		(pts
 			(xy 403.225 143.51) (xy 387.35 143.51)
 		)
 		(stroke
@@ -11270,16 +11101,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 213.36) (xy 337.82 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a40f478-2975-4c13-ae7d-c019e1a498c8")
-	)
-	(wire
-		(pts
 			(xy 40.64 373.38) (xy 40.64 375.92)
 		)
 		(stroke
@@ -11350,13 +11171,23 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 63.5) (xy 336.55 63.5)
+			(xy 322.58 63.5) (xy 323.85 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "271ad28f-9c33-4693-a298-17f408f11a21")
+	)
+	(wire
+		(pts
+			(xy 323.85 213.36) (xy 326.39 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ffc3bf-4b3b-4017-a80f-ecd3031793a4")
 	)
 	(wire
 		(pts
@@ -11470,7 +11301,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 302.26) (xy 330.2 302.26)
+			(xy 312.42 302.26) (xy 317.5 302.26)
 		)
 		(stroke
 			(width 0)
@@ -11530,13 +11361,13 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 138.43) (xy 337.82 138.43)
+			(xy 321.31 307.34) (xy 325.12 307.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "324533c6-7f41-4fc1-b051-2b6d19cec236")
+		(uuid "3214c84a-0eeb-48fe-8b52-6620bd577f4a")
 	)
 	(wire
 		(pts
@@ -11647,16 +11478,6 @@
 			(type default)
 		)
 		(uuid "3d45fb62-2591-4d40-8df1-13bed2d4bb5e")
-	)
-	(wire
-		(pts
-			(xy 323.85 133.35) (xy 327.66 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e5352ab-c54c-4ba9-9b2c-7ca945ac2f15")
 	)
 	(wire
 		(pts
@@ -12030,6 +11851,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 213.36) (xy 337.82 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fbdb77-436c-484d-ae7f-b9ba53674a0d")
+	)
+	(wire
+		(pts
 			(xy 58.42 195.58) (xy 55.88 195.58)
 		)
 		(stroke
@@ -12140,16 +11971,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 307.34) (xy 336.55 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "647df7e6-fbf7-42e3-aba1-553cbb729f77")
-	)
-	(wire
-		(pts
 			(xy 434.34 71.12) (xy 411.48 71.12)
 		)
 		(stroke
@@ -12210,7 +12031,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 143.51) (xy 327.66 143.51)
+			(xy 311.15 143.51) (xy 314.96 143.51)
 		)
 		(stroke
 			(width 0)
@@ -12460,6 +12281,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 307.34) (xy 336.55 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8c2d80-14b8-4418-8f5a-a9ccbe5024f9")
+	)
+	(wire
+		(pts
 			(xy 196.85 275.59) (xy 196.85 262.89)
 		)
 		(stroke
@@ -12537,6 +12368,16 @@
 			(type default)
 		)
 		(uuid "8023c9c3-51f6-4a6a-97ea-f9273c07367b")
+	)
+	(wire
+		(pts
+			(xy 328.93 63.5) (xy 336.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813d1606-e1be-4e9a-ad32-04bf0c063f92")
 	)
 	(wire
 		(pts
@@ -12697,6 +12538,16 @@
 			(type default)
 		)
 		(uuid "8fefaea2-c514-409f-8fdc-6109ef7f6826")
+	)
+	(wire
+		(pts
+			(xy 318.77 138.43) (xy 320.04 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b713d7-6f38-4fa4-b21b-30530d8cad03")
 	)
 	(wire
 		(pts
@@ -13230,7 +13081,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 218.44) (xy 330.2 218.44)
+			(xy 316.23 218.44) (xy 320.04 218.44)
 		)
 		(stroke
 			(width 0)
@@ -13410,7 +13261,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 68.58) (xy 328.93 68.58)
+			(xy 313.69 68.58) (xy 318.77 68.58)
 		)
 		(stroke
 			(width 0)
@@ -13660,7 +13511,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 208.28) (xy 330.2 208.28)
+			(xy 316.23 208.28) (xy 320.04 208.28)
 		)
 		(stroke
 			(width 0)
@@ -13730,7 +13581,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 58.42) (xy 328.93 58.42)
+			(xy 314.96 58.42) (xy 318.77 58.42)
 		)
 		(stroke
 			(width 0)
@@ -13760,7 +13611,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 312.42) (xy 330.2 312.42)
+			(xy 313.69 312.42) (xy 317.5 312.42)
 		)
 		(stroke
 			(width 0)
@@ -15455,7 +15306,7 @@
 	)
 	(global_label "ADC_2_RP"
 		(shape output)
-		(at 326.39 208.28 180)
+		(at 316.23 208.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15465,7 +15316,7 @@
 		)
 		(uuid "227b56c7-13c0-4a1b-a802-cee150165d14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.0915 208.28 0)
+			(at 303.9315 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16109,7 +15960,7 @@
 	)
 	(global_label "ADC_0"
 		(shape output)
-		(at 323.85 68.58 180)
+		(at 313.69 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16119,7 +15970,7 @@
 		)
 		(uuid "41da7bb2-c11c-45fc-af66-6542e0cbdca0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.0591 68.58 0)
+			(at 304.8991 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16263,7 +16114,7 @@
 	)
 	(global_label "ADC_3"
 		(shape output)
-		(at 326.39 312.42 180)
+		(at 313.69 312.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16273,7 +16124,7 @@
 		)
 		(uuid "4bdc59c6-9e5e-46ff-a794-0db795a65583")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5991 312.42 0)
+			(at 304.8991 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16350,7 +16201,7 @@
 	)
 	(global_label "ADC_0_RP"
 		(shape output)
-		(at 325.12 58.42 180)
+		(at 314.96 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16360,7 +16211,7 @@
 		)
 		(uuid "5530302f-b6f7-454b-ad8b-90a77a1d3971")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.8215 58.42 0)
+			(at 302.6615 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16394,7 +16245,7 @@
 	)
 	(global_label "ADC_1"
 		(shape output)
-		(at 323.85 143.51 180)
+		(at 311.15 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16404,7 +16255,7 @@
 		)
 		(uuid "583f3b5e-98ee-4066-88e6-94c771aac12a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.0591 143.51 0)
+			(at 302.3591 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17222,7 +17073,7 @@
 	)
 	(global_label "ADC_3_RP"
 		(shape output)
-		(at 325.12 302.26 180)
+		(at 312.42 302.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17232,7 +17083,7 @@
 		)
 		(uuid "7428ce88-28c3-41f8-95b7-4da9175bd8b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.8215 302.26 0)
+			(at 300.1215 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17376,7 +17227,7 @@
 	)
 	(global_label "ADC_2"
 		(shape output)
-		(at 326.39 218.44 180)
+		(at 316.23 218.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17386,7 +17237,7 @@
 		)
 		(uuid "7a80e8b3-eea0-41ec-8d4c-ddf76af9760e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5991 218.44 0)
+			(at 307.4391 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19534,7 +19385,7 @@
 	)
 	(global_label "ADC_1_RP"
 		(shape output)
-		(at 323.85 133.35 180)
+		(at 311.15 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19544,7 +19395,7 @@
 		)
 		(uuid "d21301aa-57ec-4c6b-a5b5-0f9b744fc47e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.5515 133.35 0)
+			(at 298.8515 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20888,72 +20739,6 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 36.83 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "061b203d-3cc1-4acc-89de-3fd016a84bd1")
-		(property "Reference" "#PWR038"
-			(at 36.83 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 36.83 222.5581 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a230f08-9e55-44a1-98f3-47cdd84d4045")
-		)
-		(instances
-			(project "SenseBarnacle"
-				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -22811,6 +22596,74 @@
 		)
 	)
 	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 327.66 307.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25ea30dc-12cc-49c7-a673-2dc4a830718f")
+		(property "Reference" "R42"
+			(at 327.66 302.3065 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 327.66 304.7308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 327.66 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 327.66 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 327.66 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be748870-0e26-4c79-ab2c-91703be1a13f")
+		)
+		(pin "1"
+			(uuid "60a68bff-413b-4180-b1ce-cb3b2a479a4a")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 101.6 242.57 0)
 		(unit 1)
@@ -23557,72 +23410,6 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 36.83 231.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3610ab4b-0371-4c1c-ae5f-b755805dcabe")
-		(property "Reference" "#PWR035"
-			(at 36.83 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 235.2731 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97ab7402-e874-4fee-93e5-705e9e603fe0")
-		)
-		(instances
-			(project "SenseBarnacle"
-				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -29502,74 +29289,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Barrel_Jack")
-		(at 29.21 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b5a7f25-507a-423c-a1c5-2b2d82a9eab3")
-		(property "Reference" "J4"
-			(at 29.21 220.6455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack"
-			(at 29.21 223.0698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
-			(at 30.48 229.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 229.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack"
-			(at 29.21 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0653b4fe-39bf-4000-aa53-8b1c90bf79b8")
-		)
-		(pin "1"
-			(uuid "4f651930-ff07-4995-afaa-6bd0be6679ae")
-		)
-		(instances
-			(project "SenseBarnacle"
-				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JumperlessSymbols:R_Small_US_3")
 		(at 109.22 135.89 270)
 		(mirror x)
@@ -30230,6 +29949,74 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 328.93 213.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a934cba3-ec9b-472d-a573-031ff4908f12")
+		(property "Reference" "R41"
+			(at 328.93 208.3265 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 328.93 210.7508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 328.93 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 328.93 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42aab5eb-8952-41dc-8b1c-ffd503b99c47")
+		)
+		(pin "1"
+			(uuid "1cc58eec-ac3b-4631-b44e-8a291ccfe97c")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -30980,6 +30767,74 @@
 		)
 	)
 	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 326.39 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b84d92bd-1946-4e4c-b232-e31f6cb62ce2")
+		(property "Reference" "R39"
+			(at 326.39 58.4665 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 326.39 60.8908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 326.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 326.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 326.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e0acfcc-5789-4e61-8ce8-042d0674d79b")
+		)
+		(pin "1"
+			(uuid "bf9b4fe3-11bc-4615-b238-2b5ed2f4e0d0")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_14")
 		(lib_id "power:GND")
 		(at 102.87 389.89 0)
@@ -31626,7 +31481,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 330.2 307.34 90)
+		(at 317.5 307.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31635,7 +31490,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4f2fdb8-4d16-45ef-b011-da3edc88c91e")
 		(property "Reference" "JP2"
-			(at 328.5491 306.1278 90)
+			(at 315.8491 306.1278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31644,7 +31499,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Bridged12"
-			(at 328.5491 308.5521 90)
+			(at 315.8491 308.5521 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31653,7 +31508,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm"
-			(at 330.2 307.34 0)
+			(at 317.5 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31662,7 +31517,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 330.2 307.34 0)
+			(at 317.5 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31671,7 +31526,7 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 330.2 307.34 0)
+			(at 317.5 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32991,7 +32846,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 330.2 213.36 90)
+		(at 320.04 213.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33000,7 +32855,7 @@
 		(fields_autoplaced yes)
 		(uuid "de09f093-787e-47e9-9afa-5fd368c5051a")
 		(property "Reference" "JP3"
-			(at 328.5491 212.1478 90)
+			(at 318.3891 212.1478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33009,7 +32864,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Bridged12"
-			(at 328.5491 214.5721 90)
+			(at 318.3891 214.5721 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33018,7 +32873,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm"
-			(at 330.2 213.36 0)
+			(at 320.04 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33027,7 +32882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 330.2 213.36 0)
+			(at 320.04 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33036,7 +32891,7 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 330.2 213.36 0)
+			(at 320.04 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33064,7 +32919,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 328.93 63.5 90)
+		(at 318.77 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33073,7 +32928,7 @@
 		(fields_autoplaced yes)
 		(uuid "dff4b603-d38c-4919-bb28-8192aca4185d")
 		(property "Reference" "JP5"
-			(at 327.2791 62.2878 90)
+			(at 317.1191 62.2878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33082,7 +32937,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Bridged12"
-			(at 327.2791 64.7121 90)
+			(at 317.1191 64.7121 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33091,7 +32946,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm"
-			(at 328.93 63.5 0)
+			(at 318.77 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33100,7 +32955,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 328.93 63.5 0)
+			(at 318.77 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33109,7 +32964,7 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 328.93 63.5 0)
+			(at 318.77 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34298,7 +34153,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 327.66 138.43 90)
+		(at 314.96 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34307,7 +34162,7 @@
 		(fields_autoplaced yes)
 		(uuid "f828956c-ef63-4af5-b33a-c6d8c78c3988")
 		(property "Reference" "JP4"
-			(at 326.0091 137.2178 90)
+			(at 313.3091 137.2178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34316,7 +34171,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Bridged12"
-			(at 326.0091 139.6421 90)
+			(at 313.3091 139.6421 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34325,7 +34180,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm"
-			(at 327.66 138.43 0)
+			(at 314.96 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34334,7 +34189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 327.66 138.43 0)
+			(at 314.96 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34343,7 +34198,7 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 327.66 138.43 0)
+			(at 314.96 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34864,6 +34719,74 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:R_Small_US_3")
+		(at 322.58 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff571b2d-4a53-43ca-ac34-27ad739d2be7")
+		(property "Reference" "R40"
+			(at 322.58 133.3965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 322.58 135.8208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 322.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 322.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 322.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6dfbfd0b-8fdf-4e4b-adac-eb960841cdae")
+		)
+		(pin "1"
+			(uuid "4ed7b99f-2664-492c-95bb-b68de658dd6c")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "R40")
 					(unit 1)
 				)
 			)
