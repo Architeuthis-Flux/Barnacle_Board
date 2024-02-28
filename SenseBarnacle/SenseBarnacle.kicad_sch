@@ -11271,6 +11271,16 @@
 	)
 	(wire
 		(pts
+			(xy -41.91 191.77) (xy -30.48 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c82ee15-4db4-4a71-9c69-1bc8fc45ebee")
+	)
+	(wire
+		(pts
 			(xy 190.5 262.89) (xy 193.04 262.89)
 		)
 		(stroke
@@ -13058,6 +13068,16 @@
 			(type solid)
 		)
 		(uuid "b5cc4df8-43ca-4dab-97a6-76bd13726d30")
+	)
+	(wire
+		(pts
+			(xy 311.15 133.35) (xy 314.96 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82c252c-9e08-47bf-a287-e4de1a90b5ec")
 	)
 	(wire
 		(pts
@@ -14923,6 +14943,28 @@
 		(uuid "101ab3ab-175a-4440-b1d5-4e07681e8fab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 447.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+18V"
+		(shape output)
+		(at -30.48 194.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10d1131f-99fc-4d05-980a-fe46101d1639")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -38.5452 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16827,6 +16869,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "-3.5V"
+		(shape output)
+		(at -30.48 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c9f2e71-1449-4a5f-82af-238158ca1b86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -39.15 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -20809,6 +20873,85 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:QA053C-1803R3")
+		(at -27.94 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06ad7013-c9cd-4324-a9a5-aa6290d66418")
+		(property "Reference" "U5"
+			(at -23.6608 197.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at -25.3422 197.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JumperlessFootprints:QA503C"
+			(at -27.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -27.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -27.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ca21e076-edfc-4358-9dbf-fa4c4720441e")
+		)
+		(pin "3"
+			(uuid "49c17c03-d66e-4a16-9d7e-8978dea840c0")
+		)
+		(pin "5"
+			(uuid "f2f85146-8107-4132-8449-e4e4cc74523e")
+		)
+		(pin "1"
+			(uuid "59585820-a5fe-4003-b99e-38eb11f8aa6b")
+		)
+		(pin "2"
+			(uuid "b3c9c210-8731-4f24-a0d1-e2bdaf768ed8")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -27857,6 +28000,72 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_40")
+		(lib_id "power:GND")
+		(at -41.91 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81ce2774-26d9-4d7c-afe1-e75b509c0624")
+		(property "Reference" "#PWR079"
+			(at -41.91 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -45.72 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -41.91 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -41.91 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -41.91 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b202671-039b-401e-a610-5ee7fee818d6")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JumperlessSymbols:Crystal_GND24_Small")
 		(at 72.39 342.265 270)
 		(unit 1)
@@ -29890,6 +30099,72 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at -30.48 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1e851fa-9c47-4965-8607-0808de3df102")
+		(property "Reference" "#PWR035"
+			(at -30.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at -30.48 175.5681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -30.48 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -30.48 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -30.48 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e1ef266-24e6-4bc4-a90a-265b12cae36f")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 67.31 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30829,6 +31104,72 @@
 			(project "SenseBarnacle"
 				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at -30.48 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba0d9b7a-bc57-4c31-89ce-704b0a452842")
+		(property "Reference" "#PWR038"
+			(at -30.48 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -30.48 185.7431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -30.48 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -30.48 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at -30.48 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87a231fd-dc60-4e44-b104-3c50d005b149")
+		)
+		(instances
+			(project "SenseBarnacle"
+				(path "/76488a98-ea73-4b2a-97c9-d7ba65c6d997"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
