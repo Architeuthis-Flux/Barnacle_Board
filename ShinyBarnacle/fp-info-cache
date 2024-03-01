@@ -1,4 +1,4 @@
-23143457233765326
+23145166555240501
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62628,6 +62628,13 @@ Switch_Universal_plated
 0
 214
 4
+JumperlessFootprints
+Tact_Switch_TS24CA
+
+
+0
+4
+3
 JumperlessFootprints
 TestPoint_D0.75mm
 
