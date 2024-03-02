@@ -864,7 +864,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R20"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "06ddf878-7417-4900-8241-e3bcea60573b")
@@ -876,7 +876,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "5a599025-3911-4157-b1a4-17c91223528f")
 			(effects
@@ -1028,7 +1028,7 @@
 			(uuid "44555c14-15d7-44c9-8c1e-7964cabcd851")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "23a7d955-0560-43ee-8393-da24d4ffe0c3")
 			(effects
@@ -1647,7 +1647,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fe8844c5-2d8b-4de1-a300-bf6b080e0a5d")
@@ -1659,7 +1659,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1a0b7e2e-b9d2-40aa-a64f-c935f3fa5f83")
@@ -1812,7 +1812,7 @@
 			(uuid "bec3499e-b152-4f9b-83f3-736f239063c3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4011635f-b3d5-4538-bb07-c4a7f3c78c35")
 			(effects
@@ -2071,7 +2071,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R21"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ef98d021-3137-4338-80f3-240d4d8fe25b")
@@ -2083,7 +2083,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "7f570986-a321-4760-b8c7-3b5c821ad1d0")
 			(effects
@@ -2235,7 +2235,7 @@
 			(uuid "940c4d14-3a50-4a5e-bc70-0ec2f8e587fb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "6ca35d94-4017-44e4-af7a-96b1ff3ac497")
 			(effects
@@ -4274,7 +4274,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R24"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f8ca4d89-401e-4127-9ce9-ef06535e2a57")
@@ -4286,7 +4286,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "6bce464f-1749-4685-8ea2-96111e7c6e7e")
 			(effects
@@ -4438,7 +4438,7 @@
 			(uuid "b211611e-985f-4ed5-b88f-77b6de51b5e5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "cc282332-c974-42c7-9bc9-e603c7eb9c76")
 			(effects
@@ -6693,7 +6693,7 @@
 		(descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y1"
-			(at 0 -2.45 360)
+			(at 0 -2.45 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c17f3fdb-7292-4bc3-8e44-ceef91dd9888")
@@ -6705,7 +6705,7 @@
 			)
 		)
 		(property "Value" "ABLS-12.000MHZ-B4-T"
-			(at 0 2.45 360)
+			(at 0 2.45 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "422fa757-d6b8-4429-9508-636d15428f37")
@@ -6868,7 +6868,7 @@
 			(uuid "1b241687-d0b0-484b-9f67-0b0aed659caa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0210ce3e-f44f-41a0-b3f3-b0f7de4e9863")
 			(effects
@@ -6933,7 +6933,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R23"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9d8913d0-06cb-4d6d-99ed-473613933e9f")
@@ -6945,7 +6945,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "2f19bef0-a53f-4f13-a7cf-056a8d3ee518")
 			(effects
@@ -7097,7 +7097,7 @@
 			(uuid "abbe5bbb-5a7d-4d84-a227-d974de0d8231")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "e22dd742-5a56-4dd1-88c5-d3356d94010b")
 			(effects
@@ -9834,7 +9834,7 @@
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 0.4 1.1 1)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -9849,6 +9849,17 @@
 			)
 			(rotate
 				(xyz 90 180 90)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/GitHub/Barnacle_Board/BarnacleBoard/3Dmodels/KNOB3 v1.step"
+			(offset
+				(xyz 7.5 -2.5 10)
+			)
+			(scale
+				(xyz 0.9 0.7 0.9)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -10867,7 +10878,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c81a55d7-4d2d-4378-b529-2ade73adf1f6")
@@ -10879,7 +10890,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "330e6d5f-78bf-4004-95c1-d461e530ffb6")
 			(effects
@@ -11031,7 +11042,7 @@
 			(uuid "c6d5f201-de30-4eb8-8358-ad638a9b4d78")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "1a8f1dba-82c4-4ff6-86f7-55f12da4967b")
 			(effects
@@ -11582,7 +11593,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C16"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bf4b007c-fe4b-4dc6-9594-575040caf919")
@@ -11594,7 +11605,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "345cb5cf-2fd3-499d-8e39-a8dd7a360f12")
 			(effects
@@ -11746,7 +11757,7 @@
 			(uuid "2145e577-5849-4406-ab97-8d73a1c03841")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "4d73f5d0-e8da-4244-8480-f5915d9b2dfd")
 			(effects
@@ -12703,7 +12714,7 @@
 		(sheetfile "ShinyBarnacle.kicad_sch")
 		(attr smd)
 		(fp_text user "${REFERENCE}"
-			(at 0 -3.749999 360)
+			(at 0 -3.749999 0)
 			(layer "F.Fab")
 			(uuid "bfd83fdf-3d3d-4d20-baca-31d9300a2686")
 			(effects
@@ -12792,7 +12803,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5656de71-48ba-4faf-b390-3a4c81afdf03")
@@ -12804,7 +12815,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "07f7ee9e-6452-43d5-ae99-bc1aec749189")
 			(effects
@@ -12956,7 +12967,7 @@
 			(uuid "b57444b4-77c3-42e6-9489-b6bbeba08572")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "34da6c2e-b630-4819-ac36-0a4f39e5fe25")
 			(effects
@@ -13003,7 +13014,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R14"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "efb5ef2f-714a-4efe-b183-1c8cf0795608")
@@ -13015,7 +13026,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "40e57756-6f4e-4286-a6d4-fc95ad1da168")
 			(effects
@@ -13167,7 +13178,7 @@
 			(uuid "d80f2b69-a203-4e00-ab0b-5654d1093611")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "e8addd7e-b90e-4029-b94e-1123bbc1ac34")
 			(effects
@@ -13214,7 +13225,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "30c0d80c-0ed1-4467-a1eb-dfbfdc16393f")
@@ -13226,7 +13237,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9623ece5-aae4-4563-bf09-d38b79d46bef")
 			(effects
@@ -13378,7 +13389,7 @@
 			(uuid "ac8ae29b-2084-43c7-81e5-6e977bfbd427")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "fce4a71e-4b3e-45cd-90ea-793c536d857e")
 			(effects
@@ -13425,7 +13436,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R19"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e2a27dbf-0eba-4aaa-bf5f-ef546cd950de")
@@ -13437,7 +13448,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "a8db38d8-b3d6-402f-84dd-4cf7ec742234")
 			(effects
@@ -13589,7 +13600,7 @@
 			(uuid "2380c345-1a12-4e0f-b3bf-499c6d60ab78")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "86afb3f9-72a4-476b-b506-93e05890cce6")
 			(effects
@@ -13847,7 +13858,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.16 270)
+			(at 0 -1.16 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b45e71e8-68ec-4110-ad49-f8f0f98d9e84")
@@ -13859,7 +13870,7 @@
 			)
 		)
 		(property "Value" "27p"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3899d02c-211a-496e-8945-e3df49d942cc")
@@ -14012,7 +14023,7 @@
 			(uuid "bc610d57-06f5-41c8-94e4-a76b48bd5949")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "1fb955dc-5b05-4bfe-b791-4ad517ede60e")
 			(effects
@@ -14270,7 +14281,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "71fe2cb4-2aa3-43ff-8f2b-5cb50808145d")
@@ -14282,7 +14293,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "e38b4685-f550-46d1-8286-1cfa13a8d351")
 			(effects
@@ -14434,7 +14445,7 @@
 			(uuid "9e79634f-3adf-4dd2-bda7-f9f5aa2e426d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "9526c76c-a9ee-4b3c-a126-302e0a9c84aa")
 			(effects
@@ -16126,7 +16137,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C12"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5513e047-7659-4bf1-a600-1b21dc8993b9")
@@ -16138,7 +16149,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "2629a6b3-65eb-4212-aae1-cc571f2d3614")
 			(effects
@@ -16290,7 +16301,7 @@
 			(uuid "c69a6b43-3ba2-4007-87f0-9a63edc6f2e3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "e22d3b25-9f63-41a9-ab32-c44d51e621e8")
 			(effects
@@ -16957,7 +16968,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C15"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0f9edc08-f6f7-46ad-8174-8d561f8f4f23")
@@ -16969,7 +16980,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "89967f85-466c-4935-af86-f3cc0e8a20bc")
 			(effects
@@ -17121,7 +17132,7 @@
 			(uuid "0b8b5cf9-69b6-470f-9561-f239de89f96c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "ab3109a5-8458-4c81-a605-0f5cff8d96ae")
 			(effects
@@ -19160,7 +19171,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP7"
-			(at 0 1.448 360)
+			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "fba22994-da05-4071-a478-4579683afb16")
@@ -19173,7 +19184,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -1.55 360)
+			(at 0 -1.55 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "01e11662-0884-4bc8-a824-dcb811d37b71")
@@ -19441,7 +19452,7 @@
 			(uuid "5d96e128-7830-40de-aa09-8251553892bd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.45 360)
+			(at 0 1.45 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5a93238d-4420-4f8e-8160-256ffb838bd5")
@@ -19471,7 +19482,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP11"
-			(at 0 1.448 360)
+			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "c7001950-001c-4021-ba37-a11aa980dae3")
@@ -19484,7 +19495,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -1.55 360)
+			(at 0 -1.55 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "feae27a0-bbc9-492a-8921-c799b410d4a2")
@@ -19752,7 +19763,7 @@
 			(uuid "76d2fc91-6689-4c5e-8e12-00c042e3b318")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.45 360)
+			(at 0 1.45 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5c2d2f1f-8476-410c-b90d-0b2fd03e442d")
@@ -19782,7 +19793,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP6"
-			(at 0 1.448 360)
+			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "20a073fe-480a-495b-9a2d-f383947e01c3")
@@ -19795,7 +19806,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -1.55 360)
+			(at 0 -1.55 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "d99d3d99-c2c2-4ccb-9b3d-6c29cfee48cd")
@@ -20063,7 +20074,7 @@
 			(uuid "0ce72481-457e-4e81-a0f8-1abb2a400878")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.45 360)
+			(at 0 1.45 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f9d0b89f-9d74-4e55-8942-82fab97c4d33")
@@ -20093,7 +20104,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP8"
-			(at 0 1.448 360)
+			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "6a8fe739-2f05-40df-95d4-f762a0ec1315")
@@ -20106,7 +20117,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -1.55 360)
+			(at 0 -1.55 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "e53ae513-980c-4c96-869d-e04986a3e12b")
@@ -20374,7 +20385,7 @@
 			(uuid "529146a9-95dd-45de-9503-b3781ce9da00")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.45 360)
+			(at 0 1.45 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ad63676a-596c-438d-9534-9a562f528cde")
@@ -21389,7 +21400,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
-			(at 0 1.448 270)
+			(at 0 1.448 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "f0480367-9e3f-435c-8fa4-22a3f47e5dc1")
@@ -21402,7 +21413,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -1.55 270)
+			(at 0 -1.55 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "391c90dc-057f-4d4e-8a84-e96081ef929e")
@@ -21670,7 +21681,7 @@
 			(uuid "4d11ce9c-1e1a-4cd7-a08a-dff5ef2c144d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.45 270)
+			(at 0 1.45 -90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ef7c9466-45f7-4bec-87ee-6bd527aa6290")
@@ -21700,7 +21711,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
-			(at 0 1.448 360)
+			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "397400fd-9638-4df0-865b-c88d7c43238d")
@@ -21713,7 +21724,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -1.55 360)
+			(at 0 -1.55 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "0f24ea1d-c186-4c29-9131-6ec0b3bf3e68")
@@ -21981,7 +21992,7 @@
 			(uuid "a506979c-80c0-45ea-957d-8af8cd81760c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.45 360)
+			(at 0 1.45 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6fbeb9f5-2d96-4622-85b4-cc8c31313b23")
@@ -22011,7 +22022,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
-			(at 0 1.448 270)
+			(at 0 1.448 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "24ec53e3-0b0a-46b0-acc2-faa7df7f6dd7")
@@ -22024,7 +22035,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -1.55 270)
+			(at 0 -1.55 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "b85579e7-6f9c-489e-8988-96615d1053fb")
@@ -22292,7 +22303,7 @@
 			(uuid "7a1af037-41ab-46e7-828e-a265ae9c207a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.45 270)
+			(at 0 1.45 -90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c512d72c-85af-46b0-b02d-9456f4f732d1")
@@ -22322,7 +22333,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP12"
-			(at 0 1.448 360)
+			(at 0 1.448 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "da1ce926-6f07-4812-a7cd-c1a7bcbafe61")
@@ -22335,7 +22346,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -1.55 360)
+			(at 0 -1.55 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "45edf923-21ca-496e-8afc-5cf10a124b23")
@@ -22603,7 +22614,7 @@
 			(uuid "d39e6733-301e-4ec9-abaf-cec8b037e366")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.45 360)
+			(at 0 1.45 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "64930ef8-5a1a-47af-b1eb-df6d46a0e63c")
@@ -23103,7 +23114,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP9"
-			(at 0 1.448 270)
+			(at 0 1.448 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "a6305104-93e3-485a-b64e-d2767d704fc5")
@@ -23116,7 +23127,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -1.55 270)
+			(at 0 -1.55 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "3691dc56-3b0c-45bc-adeb-4a7d00dde37a")
@@ -23384,7 +23395,7 @@
 			(uuid "9acd5c56-7d2a-470f-971d-341da5e2861b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.45 270)
+			(at 0 1.45 -90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ffdf3de5-953d-447b-8b33-fe7eb69b9da5")
@@ -23414,7 +23425,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP5"
-			(at 0 1.448 270)
+			(at 0 1.448 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "90a39366-e7e7-4ffc-a210-8d4532414e30")
@@ -23427,7 +23438,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -1.55 270)
+			(at 0 -1.55 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "cace4561-2b26-4eb6-81cf-8eea8de7ad5c")
@@ -23695,7 +23706,7 @@
 			(uuid "fe539c77-6630-4902-aa60-2981e82fac94")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.45 270)
+			(at 0 1.45 -90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "529070ff-0985-4440-886f-ec4f8affbba9")
@@ -23725,7 +23736,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP10"
-			(at 0 1.448 270)
+			(at 0 1.448 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "a922d77f-098f-4f36-8e53-a5e7f61b9791")
@@ -23738,7 +23749,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -1.55 270)
+			(at 0 -1.55 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "bee20f8e-1d05-44c7-8221-3f9388f56b0f")
@@ -24006,7 +24017,7 @@
 			(uuid "d83e0c77-bdf1-4b54-8df1-f5868193e6c2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.45 270)
+			(at 0 1.45 -90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a5278801-df18-466e-936b-fcb4d6cbd718")
@@ -24036,7 +24047,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
-			(at 0 1.448 270)
+			(at 0 1.448 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "1dab56df-f52d-41cc-90fc-92ff986daff5")
@@ -24049,7 +24060,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -1.55 270)
+			(at 0 -1.55 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "d46b5e91-d289-4b2f-90a0-e305d0936b1c")
@@ -24317,7 +24328,7 @@
 			(uuid "30e1a31c-ba52-4bf9-a45e-d2341ffc151a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.45 270)
+			(at 0 1.45 -90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8c712418-fe6d-4021-8735-dfa5cbcbd2aa")
