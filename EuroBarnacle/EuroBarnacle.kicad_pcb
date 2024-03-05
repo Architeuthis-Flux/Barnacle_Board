@@ -21322,7 +21322,7 @@
 	)
 	(gr_line
 		(start 58.42 146)
-		(end 196.85 146)
+		(end 170 146)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -21331,8 +21331,8 @@
 		(uuid "0b6f1cb7-7f03-4c68-a34d-e6c457459f82")
 	)
 	(gr_line
-		(start 196.85 146.05)
-		(end 196.85 36)
+		(start 170 146)
+		(end 170 36)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -21351,7 +21351,7 @@
 		(uuid "80883599-8934-48c9-bb62-ee091d75bfb2")
 	)
 	(gr_line
-		(start 196.85 36)
+		(start 170 36)
 		(end 58.42 36)
 		(stroke
 			(width 0.05)
