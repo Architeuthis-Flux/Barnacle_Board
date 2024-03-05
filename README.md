@@ -27,3 +27,6 @@ The next few I'm working on are (in a vague chronological order):
 ![TxRx00087](https://github.com/Architeuthis-Flux/Barnacle_Board/assets/20519442/a09d111b-5562-4daf-bbf6-17a57371504a)
 
 If you think of any new ones that might be useful or if you disagree with the order I've put these in and think one should be prioritized, let me know!
+
+Here's the spec for the edge connector in case you want to make your own Barnacles
+![edgeConnectorScpecSmall](https://github.com/Architeuthis-Flux/Barnacle_Board/assets/20519442/753425f5-d782-427f-bf4b-7e35cc46b006)
