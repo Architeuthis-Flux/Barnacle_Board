@@ -16,7 +16,7 @@ Right now I'm just dumping stuff here. But these will be launching soon in my [s
 
 ![ws-1](https://github.com/user-attachments/assets/6513c78a-9c70-41fe-a45b-28dd6181bb21)
 ![ws-3](https://github.com/user-attachments/assets/989e80a4-54d9-4ea9-897d-aabdb40f9f79)
-![ws-4](https://github.com/user-attachments/assets/8c985b33-47a5-4073-a6be-cdd71c1c6db9)
+
 ![barn-5](https://github.com/user-attachments/assets/5271995f-7d87-4dcd-ace6-dc54e89675ef)
 ![barn-6](https://github.com/user-attachments/assets/0ef41126-5555-4f31-8dcb-da8478fbf984)
 
