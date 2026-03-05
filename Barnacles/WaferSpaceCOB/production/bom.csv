@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+J1_2,HEE70LP03BK_NumberedPads_CardGuide,1,Conn_02x35_Top_Bottom,
+"J1, J2, J3, J4, J5",PinHeader_1x1_Smallest,5,Conn_01x01,
+J12,SideConnect_short_right_Drawing,1,Conn_02x03_Top_Bottom,
+J13,SideConnect_short_left_Drawing,1,Conn_02x03_Top_Bottom,
+J6,SideConnect_sparserrr_Bottom_drawing,1,Conn_02x35_Top_Bottom,
+U1,HEE70LP03BK_CardSide,1,~,
+U2,Conn_2x30_breadboard_double,1,~,
+U3,SideConnect_sparserrr_Top,1,~,

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.1,
-          "height": 2.1,
-          "width": 2.1
+          "drill": 0.0,
+          "height": 0.0524,
+          "width": 0.0524
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -126,7 +126,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.01,
+        "min_copper_edge_clearance": 0.1,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -137,7 +137,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.12,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.079,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.005,
@@ -224,6 +224,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -477,7 +489,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.18,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -488,8 +500,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
-        "via_diameter": 0.5,
+        "track_width": 0.2,
+        "via_diameter": 0.4,
         "via_drill": 0.25,
         "wire_width": 6
       },
@@ -503,7 +515,7 @@
         "microvia_drill": 0.1,
         "name": "PO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -520,12 +532,22 @@
         "microvia_drill": 0.1,
         "name": "Small",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.12,
+        "name": "fanout",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.4,
+        "via_drill": 0.25
       }
     ],
     "meta": {
@@ -548,11 +570,19 @@
       },
       {
         "netclass": "PO",
-        "pattern": "+5V"
+        "pattern": "*5V"
       },
       {
         "netclass": "PO",
-        "pattern": "GND"
+        "pattern": "*GND"
+      },
+      {
+        "netclass": "PO",
+        "pattern": "*T_*"
+      },
+      {
+        "netclass": "PO",
+        "pattern": "*P_*"
       }
     ]
   },
@@ -564,7 +594,7 @@
       "plot": "Plots/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "BarnacleBoard.step",
+      "step": "../../../../Desktop/BarnacleBoard4.step",
       "svg": "",
       "vrml": ""
     },
@@ -622,12 +652,30 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
