@@ -1,4 +1,4 @@
-26883045471431941
+26891906270671146
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67627,6 +67627,20 @@ BackMaskWindows
 0
 0
 JumperlessFootprints
+Banana_Minus
+
+
+0
+4
+1
+JumperlessFootprints
+Banana_Plus
+
+
+0
+4
+1
+JumperlessFootprints
 BreadboardLEDHole
 
 
@@ -67635,6 +67649,13 @@ BreadboardLEDHole
 1
 JumperlessFootprints
 Breadboard_CustomClips_CorrectPins_1
+
+
+0
+144
+64
+JumperlessFootprints
+Breadboard_CustomClips_CorrectPins_2
 
 
 0
@@ -67658,6 +67679,13 @@ JumperlessFootprints
 CP_EIA-6032-20_AVX-F_Pad2.25x2.35mm_HandSolder
 Tantalum Capacitor SMD AVX-F (6032-20 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
 capacitor tantalum
+0
+2
+2
+JumperlessFootprints
+CR2032_Holder_Clip_Through_Hole-BS-03-A1AJ001
+
+
 0
 2
 2
@@ -68830,6 +68858,13 @@ Untitled_13
 0
 81
 81
+JumperlessFootprints
+Untitled_14
+
+
+0
+2
+2
 JumperlessFootprints
 WS_DieBond
 

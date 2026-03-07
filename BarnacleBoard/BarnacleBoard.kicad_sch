@@ -11274,16 +11274,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "All the LEDs are down here"
-		(exclude_from_sim no)
-		(at 72.644 105.41 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "0738f310-ad6d-41ba-9127-b6f7bb95b98d")
-	)
 	(junction
 		(at 27.94 34.29)
 		(diameter 0)
@@ -19086,48 +19076,6 @@
 				(path "/9d20a3da-9ae0-4d82-a466-4a6a36bdc64c"
 					(reference "J11")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 38.1 93.98)
-		(size 70.485 20.955)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6fb7a848-f208-4c83-bb0d-855fd9915b8b")
-		(property "Sheetname" "LEDs"
-			(at 38.1 93.2684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "JustTheLEDs.kicad_sch"
-			(at 38.1 115.5196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "BarnacleBoard"
-				(path "/9d20a3da-9ae0-4d82-a466-4a6a36bdc64c"
-					(page "2")
 				)
 			)
 		)
