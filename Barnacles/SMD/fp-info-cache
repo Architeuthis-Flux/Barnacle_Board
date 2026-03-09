@@ -1,4 +1,4 @@
-26898997819146382
+26907862481450895
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67781,6 +67781,13 @@ Conn_1x10
 10
 10
 JumperlessFootprints
+Conn_1x30_breadboard_single
+
+
+0
+60
+30
+JumperlessFootprints
 Conn_2x30_breadboard
 
 
@@ -68705,6 +68712,20 @@ TP_smaller
 1
 1
 JumperlessFootprints
+TQFP_12-48_0.65mm
+
+
+0
+56
+56
+JumperlessFootprints
+TQFP_12-48_0.65mm_ALT
+
+
+0
+56
+56
+JumperlessFootprints
 TQFP_12-56-0.5mm_pitch
 
 
@@ -68713,6 +68734,20 @@ TQFP_12-56-0.5mm_pitch
 56
 JumperlessFootprints
 TQFP_12-56-0.5mm_pitch_ALT
+
+
+0
+56
+56
+JumperlessFootprints
+TQFP_32-64_0.8mm
+
+
+0
+56
+56
+JumperlessFootprints
+TQFP_32-64_0.8mm_ROTATE
 
 
 0

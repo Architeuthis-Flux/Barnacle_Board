@@ -466,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SMD.kicad_pro",
+    "filename": "ProtoSMD.kicad_pro",
     "version": 3
   },
   "net_settings": {
