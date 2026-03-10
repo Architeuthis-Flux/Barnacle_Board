@@ -8,6 +8,10 @@ Or use the card edge connector to plug in other stuff, like solderable protoboar
 
 
 Right now I'm just dumping stuff here. But these will be launching soon in my [store](https://shop.jumperless.org/)
+![Barn-3](https://github.com/user-attachments/assets/c477b30e-263f-4acb-880f-db1f6457e617)
+![Barn-2](https://github.com/user-attachments/assets/60e3c44e-c6ee-4794-a677-8f3f44d2a71b)
+![Barn-4](https://github.com/user-attachments/assets/e0683744-70e1-4a8d-b3cf-446d4f38e73d)
+![Barn-1](https://github.com/user-attachments/assets/397db40d-9f10-495b-ac47-692bd1be248b)
 
 ![IMG_2591](https://github.com/user-attachments/assets/ce8eeeff-4704-4f76-bbc3-0a24cd25ade8)
 ![IMG_2592](https://github.com/user-attachments/assets/b56f9a4c-b306-452d-95a7-f34f68b119c3)
