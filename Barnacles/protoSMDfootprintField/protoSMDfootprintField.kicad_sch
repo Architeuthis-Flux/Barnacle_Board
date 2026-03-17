@@ -15657,7 +15657,7 @@
 	)
 	(global_label "SENSE_BOTTOM"
 		(shape input)
-		(at 113.03 354.33 180)
+		(at 161.29 217.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15667,7 +15667,7 @@
 		)
 		(uuid "4d4de15a-5d00-403f-b28d-de9351b584cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.7121 354.33 0)
+			(at 143.9721 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)

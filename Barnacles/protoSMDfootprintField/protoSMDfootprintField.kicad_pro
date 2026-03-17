@@ -466,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ProtoSMD.kicad_pro",
+    "filename": "protoSMDfootprintField.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -518,7 +518,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ProtoSMD.step",
+      "step": "protoSMDfootprintField.step",
       "svg": "",
       "vrml": ""
     },

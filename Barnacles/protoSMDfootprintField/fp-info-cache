@@ -1,4 +1,4 @@
-26959298701399650
+26950430962075882
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67585,13 +67585,6 @@ JumperlessFootprints
 2
 2
 JumperlessFootprints
-0402-1206_VOID2_end
-
-
-0
-2
-2
-JumperlessFootprints
 0402-1812_VOID
 
 
@@ -67858,13 +67851,6 @@ Conn_5x30_breadboard
 300
 60
 JumperlessFootprints
-Conn_5x30_breadboard_sin_passives
-
-
-0
-271
-30
-JumperlessFootprints
 Conn_5x30_breadboard_single
 
 
@@ -68088,13 +68074,6 @@ K1-1210UN_Directional_Switch
 0
 10
 10
-JumperlessFootprints
-LED_6_SMD
-
-
-0
-6
-6
 JumperlessFootprints
 LED_1206_REVERSEMOUNT_OVAL
 
@@ -68614,13 +68593,6 @@ CMS SOT
 4
 3
 JumperlessFootprints
-SOT-223-SOT535
-module CMS SOT223 4 pins
-CMS SOT
-0
-4
-4
-JumperlessFootprints
 STX_3452_TRRRS_Audio_Jack
 
 
@@ -69124,13 +69096,6 @@ Untitled_16
 0
 0
 0
-JumperlessFootprints
-Untitled_17
-
-
-0
-6
-6
 JumperlessFootprints
 WS_DieBond
 
