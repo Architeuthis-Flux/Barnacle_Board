@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"_12, _10, _7, _5",Conn_1x1_drill,4,Conn_1x1_drill,
+"_11, _9, _8, _6, _4, _3, _2, ",pad,8,,
+"J11, J18",Conn_6x30_drillPlated,2,Conn_01x30,

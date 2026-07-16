@@ -1,0 +1,18 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+J1,1,BOT_RAIL_POS,HEE70LP03BK_NumberedPads_CardGuide,,,,smt,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J1,1,BOT_RAIL_POS,PinHeader_1x1_Smallest,,,,smt,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J12,1,Conn_02x03_Top_Bottom,SideConnect_short_right_Drawing,,,,smt,
+J13,1,Conn_02x03_Top_Bottom,SideConnect_short_left_Drawing,,,,smt,
+J2,1,TOP_RAIL_POS,PinHeader_1x1_Smallest,,,,smt,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J3,1,BOT_RAIL_NEG,PinHeader_1x1_Smallest,,,,smt,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J4,1,TOP_RAIL_NEG,PinHeader_1x1_Smallest,,,,smt,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J5,1,CENTER,PinHeader_1x1_Smallest,,,,smt,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J6,1,LED_GND,SideConnect_sparserrr_Bottom_drawing,,,,smt,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"JP10, JP11, JP12, JP5, JP6, JP7, JP8, JP9",8,JMP,SolderJumper_2_Bridged_Small,,,,smt,"Solder Jumper, 2-pole, closed/bridged"
+"TP10, TP6, TP7, TP8",4,TestPoint,Conn_1x1_clipLeads,,,,tht,test point
+"TP2, TP3",2,TestPoint,Banana_Plus,,,,tht,test point
+"TP4, TP9",2,TestPoint,Banana_Minus,,,,tht,test point
+U3,1,~,SideConnect_sparserrr_Top,,,,smt,
+U4,1,~,HEE70LP03BK_CardSide,,,,smt,
+U5,1,~,Conn_2x30_breadboard_double_WS,,,,smt,
+U9,1,~,P0.40_HC-PBB40C-70DS-0.4V-3.0-02_wscob,,,,smt,

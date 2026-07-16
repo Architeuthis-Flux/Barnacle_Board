@@ -15,18 +15,19 @@
       "vias": 0.9100000262260437,
       "zones": 0.5199999809265137
     },
+    "prototype_zone_fills": false,
     "selection_filter": {
-      "dimensions": true,
+      "dimensions": false,
       "footprints": true,
-      "graphics": true,
-      "keepouts": true,
+      "graphics": false,
+      "keepouts": false,
       "lockedItems": false,
-      "otherItems": true,
+      "otherItems": false,
       "pads": true,
-      "text": true,
-      "tracks": true,
-      "vias": true,
-      "zones": true
+      "text": false,
+      "tracks": false,
+      "vias": false,
+      "zones": false
     },
     "visible_items": [
       "vias",
@@ -53,6 +54,7 @@
     "zone_display_mode": 0
   },
   "git": {
+    "integration_disabled": false,
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
@@ -105,6 +107,7 @@
     "filter_text": "",
     "group_by_constraint": false,
     "group_by_netclass": false,
+    "show_time_domain_details": false,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
@@ -115,6 +118,7 @@
     "files": []
   },
   "schematic": {
+    "hierarchy_collapsed": [],
     "selection_filter": {
       "graphics": true,
       "images": true,
@@ -122,6 +126,7 @@
       "lockedItems": false,
       "otherItems": true,
       "pins": true,
+      "ruleAreas": true,
       "symbols": true,
       "text": true,
       "wires": true

@@ -1,0 +1,8 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"_8, _7, _6, _5, _4, _3, _2, ",,8,,
+"J1_4, J1, J2_2, J2, J3_2, J3, J4_2, J4, J5_2, J5",PinHeader_1x1_Smallest,10,Conn_01x01,
+"J1_3, J1_2",HEE70LP03BK_NumberedPads_CardGuide,2,Conn_01x01,
+"J11_2, J11, J18_2, J18",Conn_6x30_drill,4,Conn_01x30,
+"J13_2, J13",SideConnect_short_left_Drawing,2,Conn_02x30_Top_Bottom,
+"J6_2, J6",SideConnect_sparserrr_Bottom_drawing,2,Conn_01x01,
+"U1_2, U1",HEE70LP03BK_CardSide,2,~,
