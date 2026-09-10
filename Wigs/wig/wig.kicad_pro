@@ -302,6 +302,7 @@
       "netlist": "",
       "plot": "production/manufal/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""

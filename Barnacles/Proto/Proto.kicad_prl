@@ -116,7 +116,20 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "Proto.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": -1971,
+          "pos_y": -208,
+          "size_x": 1728,
+          "size_y": 1022
+        }
+      }
+    ]
   },
   "schematic": {
     "hierarchy_collapsed": [],

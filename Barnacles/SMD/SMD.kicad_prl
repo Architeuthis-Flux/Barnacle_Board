@@ -5,7 +5,7 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.7400000095367432,
@@ -121,7 +121,20 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "SMD.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": -1971,
+          "pos_y": -208,
+          "size_x": 1728,
+          "size_y": 1022
+        }
+      }
+    ]
   },
   "schematic": {
     "hierarchy_collapsed": [],

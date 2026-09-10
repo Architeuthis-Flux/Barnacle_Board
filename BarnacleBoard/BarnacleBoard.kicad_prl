@@ -33,7 +33,6 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
-      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -98,7 +97,7 @@
       103,
       74,
       103,
-      103
+      347
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -115,7 +114,32 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "BarnacleBoard.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": -1971,
+          "pos_y": -208,
+          "size_x": 1728,
+          "size_y": 1022
+        }
+      },
+      {
+        "name": "BarnacleBoard.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": -1899,
+          "pos_y": -292,
+          "size_x": 1728,
+          "size_y": 1022
+        }
+      }
+    ]
   },
   "schematic": {
     "hierarchy_collapsed": [],

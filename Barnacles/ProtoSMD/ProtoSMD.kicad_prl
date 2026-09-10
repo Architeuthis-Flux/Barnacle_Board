@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.7400000095367432,
@@ -17,16 +17,16 @@
     },
     "prototype_zone_fills": false,
     "selection_filter": {
-      "dimensions": false,
-      "footprints": false,
-      "graphics": false,
-      "keepouts": false,
+      "dimensions": true,
+      "footprints": true,
+      "graphics": true,
+      "keepouts": true,
       "lockedItems": false,
-      "otherItems": false,
-      "pads": false,
-      "text": false,
-      "tracks": false,
-      "vias": false,
+      "otherItems": true,
+      "pads": true,
+      "text": true,
+      "tracks": true,
+      "vias": true,
       "zones": true
     },
     "visible_items": [
@@ -74,6 +74,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -86,7 +88,9 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
       156,
@@ -97,6 +101,8 @@
       103,
       103,
       74,
+      103,
+      103,
       103,
       103
     ],
@@ -115,7 +121,20 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "ProtoSMD.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": -1971,
+          "pos_y": -208,
+          "size_x": 1728,
+          "size_y": 1022
+        }
+      }
+    ]
   },
   "schematic": {
     "hierarchy_collapsed": [],
