@@ -5,7 +5,7 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -17,22 +17,23 @@
     },
     "prototype_zone_fills": false,
     "selection_filter": {
-      "dimensions": false,
+      "dimensions": true,
       "footprints": true,
-      "graphics": false,
-      "keepouts": false,
+      "graphics": true,
+      "keepouts": true,
       "lockedItems": false,
-      "otherItems": false,
-      "pads": false,
-      "text": false,
-      "tracks": false,
-      "vias": false,
-      "zones": false
+      "otherItems": true,
+      "pads": true,
+      "text": true,
+      "tracks": true,
+      "vias": true,
+      "zones": true
     },
     "visible_items": [
       "vias",
       "footprint_text",
       "footprint_anchors",
+      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -106,7 +107,7 @@
       103,
       103,
       103,
-      103
+      253
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -123,32 +124,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "WiigLED.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 2,
-          "maximized": true,
-          "pos_x": -1677,
-          "pos_y": -165,
-          "size_x": 1280,
-          "size_y": 757
-        }
-      },
-      {
-        "name": "WiigLED.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 2,
-          "maximized": true,
-          "pos_x": -1948,
-          "pos_y": -530,
-          "size_x": 1728,
-          "size_y": 1022
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "hierarchy_collapsed": [],
